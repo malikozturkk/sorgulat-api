@@ -1,0 +1,267 @@
+[
+    {
+        "name": "Afganistan",
+        "slug": "afganistan",
+        "timezone": "Asia/Kabul"
+    },
+    {
+        "name": "Arnavutluk",
+        "slug": "arnavutluk",
+        "timezone": "Europe/Tirane"
+    },
+    {
+        "name": "Cezayir",
+        "slug": "cezayir",
+        "timezone": "Africa/Algiers"
+    },
+    {
+        "name": "Amerika Birleşik Devletleri",
+        "slug": "abd",
+        "timezone": "America/New_York"
+    },
+    {
+        "name": "Andorra",
+        "slug": "andorra",
+        "timezone": "Europe/Andorra"
+    },
+    {
+        "name": "Angola",
+        "slug": "angola",
+        "timezone": "Africa/Luanda"
+    },
+    {
+        "name": "Arjantin",
+        "slug": "arjantin",
+        "timezone": "America/Argentina/Buenos_Aires"
+    },
+    {
+        "name": "Ermenistan",
+        "slug": "ermenistan",
+        "timezone": "Asia/Yerevan"
+    },
+    {
+        "name": "Avustralya",
+        "slug": "avustralya",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "name": "Avusturya",
+        "slug": "avusturya",
+        "timezone": "Europe/Vienna"
+    },
+    {
+        "name": "Azerbaycan",
+        "slug": "azerbaycan",
+        "timezone": "Asia/Baku"
+    },
+    {
+        "name": "Bahamas",
+        "slug": "bahamas",
+        "timezone": "America/Nassau"
+    },
+    {
+        "name": "Bahreyn",
+        "slug": "bahreyn",
+        "timezone": "Asia/Bahrain"
+    },
+    {
+        "name": "Bangladeş",
+        "slug": "banglades",
+        "timezone": "Asia/Dhaka"
+    },
+    {
+        "name": "Belçika",
+        "slug": "belcika",
+        "timezone": "Europe/Brussels"
+    },
+    {
+        "name": "Belize",
+        "slug": "belize",
+        "timezone": "America/Belize"
+    },
+    {
+        "name": "Benin",
+        "slug": "benin",
+        "timezone": "Africa/Porto-Novo"
+    },
+    {
+        "name": "Bhutan",
+        "slug": "bhutan",
+        "timezone": "Asia/Thimphu"
+    },
+    {
+        "name": "Bolivya",
+        "slug": "bolivya",
+        "timezone": "America/La_Paz"
+    },
+    {
+        "name": "Bosna-Hersek",
+        "slug": "bosna-hersek",
+        "timezone": "Europe/Sarajevo"
+    },
+    {
+        "name": "Brezilya",
+        "slug": "brezilya",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "name": "Bulgaristan",
+        "slug": "bulgaristan",
+        "timezone": "Europe/Sofia"
+    },
+    {
+        "name": "Kanada",
+        "slug": "kanada",
+        "timezone": "America/Toronto"
+    },
+    {
+        "name": "Şili",
+        "slug": "sili",
+        "timezone": "America/Santiago"
+    },
+    {
+        "name": "Çin",
+        "slug": "cin",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "name": "Kolombiya",
+        "slug": "kolombiya",
+        "timezone": "America/Bogota"
+    },
+    {
+        "name": "Hırvatistan",
+        "slug": "hirvatistan",
+        "timezone": "Europe/Zagreb"
+    },
+    {
+        "name": "Çekya",
+        "slug": "cekya",
+        "timezone": "Europe/Prague"
+    },
+    {
+        "name": "Danimarka",
+        "slug": "danimarka",
+        "timezone": "Europe/Copenhagen"
+    },
+    {
+        "name": "Mısır",
+        "slug": "misir",
+        "timezone": "Africa/Cairo"
+    },
+    {
+        "name": "Fransa",
+        "slug": "fransa",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "name": "Almanya",
+        "slug": "almanya",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "name": "Yunanistan",
+        "slug": "yunanistan",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "name": "Hindistan",
+        "slug": "hindistan",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "name": "Endonezya",
+        "slug": "endonezya",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "name": "İran",
+        "slug": "iran",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "name": "İtalya",
+        "slug": "italya",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "name": "Japonya",
+        "slug": "japonya",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "name": "Meksika",
+        "slug": "meksika",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "name": "Hollanda",
+        "slug": "hollanda",
+        "timezone": "Europe/Amsterdam"
+    },
+    {
+        "name": "Norveç",
+        "slug": "norvec",
+        "timezone": "Europe/Oslo"
+    },
+    {
+        "name": "Polonya",
+        "slug": "polonya",
+        "timezone": "Europe/Warsaw"
+    },
+    {
+        "name": "Portekiz",
+        "slug": "portekiz",
+        "timezone": "Europe/Lisbon"
+    },
+    {
+        "name": "Rusya",
+        "slug": "rusya",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "name": "Suudi Arabistan",
+        "slug": "suudi-arabistan",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "name": "İspanya",
+        "slug": "ispanya",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "name": "İsveç",
+        "slug": "isvec",
+        "timezone": "Europe/Stockholm"
+    },
+    {
+        "name": "İsviçre",
+        "slug": "isvicre",
+        "timezone": "Europe/Zurich"
+    },
+    {
+        "name": "Türkiye",
+        "slug": "turkiye",
+        "timezone": "Europe/Istanbul"
+    },
+    {
+        "name": "Ukrayna",
+        "slug": "ukrayna",
+        "timezone": "Europe/Kiev"
+    },
+    {
+        "name": "İngiltere",
+        "slug": "ingiltere",
+        "timezone": "Europe/London"
+    },
+    {
+        "name": "Vietnam",
+        "slug": "vietnam",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "name": "Güney Afrika",
+        "slug": "guney-afrika",
+        "timezone": "Africa/Johannesburg"
+    }
+]

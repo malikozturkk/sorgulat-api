@@ -1,0 +1,266 @@
+[
+    {
+        "name": "İstanbul",
+        "slug": "istanbul",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye"
+    },
+    {
+        "name": "New York",
+        "slug": "new-york",
+        "timezone": "America/New_York",
+        "country": "Amerika Birleşik Devletleri"
+    },
+    {
+        "name": "Şikago",
+        "slug": "sikago",
+        "timezone": "America/Chicago",
+        "country": "Amerika Birleşik Devletleri"
+    },
+    {
+        "name": "Tokyo",
+        "slug": "tokyo",
+        "timezone": "Asia/Tokyo",
+        "country": "Japonya"
+    },
+    {
+        "name": "Londra",
+        "slug": "londra",
+        "timezone": "Europe/London",
+        "country": "İngiltere"
+    },
+    {
+        "name": "Paris",
+        "slug": "paris",
+        "timezone": "Europe/Paris",
+        "country": "Fransa"
+    },
+    {
+        "name": "Dubai",
+        "slug": "dubai",
+        "timezone": "Asia/Dubai",
+        "country": "Birleşik Arap Emirlikleri"
+    },
+    {
+        "name": "Hong Kong",
+        "slug": "hong-kong",
+        "timezone": "Asia/Hong_Kong",
+        "country": "Çin"
+    },
+    {
+        "name": "Sydney",
+        "slug": "sydney",
+        "timezone": "Australia/Sydney",
+        "country": "Avustralya"
+    },
+    {
+        "name": "Berlin",
+        "slug": "berlin",
+        "timezone": "Europe/Berlin",
+        "country": "Almanya"
+    },
+    {
+        "name": "Moskova",
+        "slug": "moskova",
+        "timezone": "Europe/Moscow",
+        "country": "Rusya"
+    },
+    {
+        "name": "Los Angeles",
+        "slug": "los-angeles",
+        "timezone": "America/Los_Angeles",
+        "country": "Amerika Birleşik Devletleri"
+    },
+    {
+        "name": "Singapur",
+        "slug": "singapur",
+        "timezone": "Asia/Singapore",
+        "country": "Singapur"
+    },
+    {
+        "name": "Seul",
+        "slug": "seul",
+        "timezone": "Asia/Seoul",
+        "country": "Güney Kore"
+    },
+    {
+        "name": "Roma",
+        "slug": "roma",
+        "timezone": "Europe/Rome",
+        "country": "İtalya"
+    },
+    {
+        "name": "Bangkok",
+        "slug": "bangkok",
+        "timezone": "Asia/Bangkok",
+        "country": "Tayland"
+    },
+    {
+        "name": "Madrid",
+        "slug": "madrid",
+        "timezone": "Europe/Madrid",
+        "country": "İspanya"
+    },
+    {
+        "name": "Toronto",
+        "slug": "toronto",
+        "timezone": "America/Toronto",
+        "country": "Kanada"
+    },
+    {
+        "name": "Mexico City",
+        "slug": "mexico-city",
+        "timezone": "America/Mexico_City",
+        "country": "Meksika"
+    },
+    {
+        "name": "Pekin",
+        "slug": "pekin",
+        "timezone": "Asia/Shanghai",
+        "country": "Çin"
+    },
+    {
+        "name": "Mumbai",
+        "slug": "mumbai",
+        "timezone": "Asia/Kolkata",
+        "country": "Hindistan"
+    },
+    {
+        "name": "Jakarta",
+        "slug": "jakarta",
+        "timezone": "Asia/Jakarta",
+        "country": "Endonezya"
+    },
+    {
+        "name": "Cape Town",
+        "slug": "cape-town",
+        "timezone": "Africa/Johannesburg",
+        "country": "Güney Afrika"
+    },
+    {
+        "name": "Amsterdam",
+        "slug": "amsterdam",
+        "timezone": "Europe/Amsterdam",
+        "country": "Hollanda"
+    },
+    {
+        "name": "Dublin",
+        "slug": "dublin",
+        "timezone": "Europe/Dublin",
+        "country": "İrlanda"
+    },
+    {
+        "name": "Oslo",
+        "slug": "oslo",
+        "timezone": "Europe/Oslo",
+        "country": "Norveç"
+    },
+    {
+        "name": "Frankfurt",
+        "slug": "frankfurt",
+        "timezone": "Europe/Berlin",
+        "country": "Almanya"
+    },
+    {
+        "name": "Helsinki",
+        "slug": "helsinki",
+        "timezone": "Europe/Helsinki",
+        "country": "Finlandiya"
+    },
+    {
+        "name": "Stockholm",
+        "slug": "stockholm",
+        "timezone": "Europe/Stockholm",
+        "country": "İsveç"
+    },
+    {
+        "name": "Vancouver",
+        "slug": "vancouver",
+        "timezone": "America/Vancouver",
+        "country": "Kanada"
+    },
+    {
+        "name": "San Francisco",
+        "slug": "san-francisco",
+        "timezone": "America/Los_Angeles",
+        "country": "Amerika Birleşik Devletleri"
+    },
+    {
+        "name": "Washington, D.C.",
+        "slug": "washington-dc",
+        "timezone": "America/New_York",
+        "country": "Amerika Birleşik Devletleri"
+    },
+    {
+        "name": "Rio de Janeiro",
+        "slug": "rio-de-janeiro",
+        "timezone": "America/Sao_Paulo",
+        "country": "Brezilya"
+    },
+    {
+        "name": "São Paulo",
+        "slug": "sao-paulo",
+        "timezone": "America/Sao_Paulo",
+        "country": "Brezilya"
+    },
+    {
+        "name": "Buenos Aires",
+        "slug": "buenos-aires",
+        "timezone": "America/Argentina/Buenos_Aires",
+        "country": "Arjantin"
+    },
+    {
+        "name": "Abu Dabi",
+        "slug": "abu-dhabi",
+        "timezone": "Asia/Dubai",
+        "country": "Birleşik Arap Emirlikleri"
+    },
+    {
+        "name": "Delhi",
+        "slug": "delhi",
+        "timezone": "Asia/Kolkata",
+        "country": "Hindistan"
+    },
+    {
+        "name": "Miami",
+        "slug": "miami",
+        "timezone": "America/New_York",
+        "country": "Amerika Birleşik Devletleri"
+    },
+    {
+        "name": "Milano",
+        "slug": "milano",
+        "timezone": "Europe/Rome",
+        "country": "İtalya"
+    },
+    {
+        "name": "Taipei",
+        "slug": "taipei",
+        "timezone": "Asia/Taipei",
+        "country": "Tayvan"
+    },
+    {
+        "name": "Tel Aviv",
+        "slug": "tel-aviv",
+        "timezone": "Asia/Jerusalem",
+        "country": "İsrail"
+    },
+    {
+        "name": "Reykjavik",
+        "slug": "reykjavik",
+        "timezone": "Atlantic/Reykjavik",
+        "country": "İzlanda"
+    },
+    {
+        "name": "Hanoi",
+        "slug": "hanoi",
+        "timezone": "Asia/Ho_Chi_Minh",
+        "country": "Vietnam"
+    },
+    {
+        "name": "Tahran",
+        "slug": "tahran",
+        "timezone": "Asia/Tehran",
+        "country": "İran"
+    }
+]
