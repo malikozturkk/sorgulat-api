@@ -21,9 +21,9 @@ func getTimeForLocation(timezone string, locationName string, slug string, count
 	}
 	now := time.Now().In(loc)
 	suffix := utils.GetLocationSuffix(locationName)
-	populerCities := make([]models.CityTime, 0, 5)
+	populerCities := make([]models.CityTime, 0, 6)
 	for i, city := range cities {
-		if i >= 5 {
+		if i >= 6 {
 			break
 		}
 		cityLoc, err := time.LoadLocation(city.Timezone)
@@ -75,11 +75,6 @@ func GetTimezoneBySlug(w http.ResponseWriter, r *http.Request) {
 	parts := strings.Split(r.URL.Path, "/")
 	name := parts[len(parts)-1]
 
-	if name == "" {
-		http.Error(w, "Eksik parametre", http.StatusBadRequest)
-		return
-	}
-
 	var (
 		found        models.City
 		foundCountry models.Country
@@ -113,10 +108,6 @@ func GetTimezoneBySlug(w http.ResponseWriter, r *http.Request) {
 	}
 
 	timezone := found.Timezone
-	if found.Slug == "" {
-		timezone = foundCountry.Timezone
-		country = &foundCountry.Name
-	}
 
 	response, err := getTimeForLocation(timezone, locationName, name, country, typeOpt)
 	if err != nil {
