@@ -12,10 +12,10 @@
         "country": "Amerika Birleşik Devletleri"
     },
     {
-        "name": "Şikago",
-        "slug": "sikago",
-        "timezone": "America/Chicago",
-        "country": "Amerika Birleşik Devletleri"
+        "name": "Paris",
+        "slug": "paris",
+        "timezone": "Europe/Paris",
+        "country": "Fransa"
     },
     {
         "name": "Tokyo",
@@ -30,16 +30,16 @@
         "country": "İngiltere"
     },
     {
-        "name": "Paris",
-        "slug": "paris",
-        "timezone": "Europe/Paris",
-        "country": "Fransa"
-    },
-    {
         "name": "Dubai",
         "slug": "dubai",
         "timezone": "Asia/Dubai",
         "country": "Birleşik Arap Emirlikleri"
+    },
+    {
+        "name": "Şikago",
+        "slug": "sikago",
+        "timezone": "America/Chicago",
+        "country": "Amerika Birleşik Devletleri"
     },
     {
         "name": "Hong Kong",
