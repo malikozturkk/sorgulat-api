@@ -2,266 +2,379 @@
     {
         "name": "Afganistan",
         "slug": "afganistan",
-        "timezone": "Asia/Kabul"
+        "timezone": "Asia/Kabul",
+        "latitude": 33.93911,
+        "longitude": 67.709953
     },
     {
         "name": "Arnavutluk",
         "slug": "arnavutluk",
-        "timezone": "Europe/Tirane"
+        "timezone": "Europe/Tirane",
+        "latitude": 41.153332,
+        "longitude": 20.168331
     },
     {
         "name": "Cezayir",
         "slug": "cezayir",
-        "timezone": "Africa/Algiers"
+        "timezone": "Africa/Algiers",
+        "latitude": 28.033886,
+        "longitude": 1.659626
     },
     {
         "name": "Amerika Birleşik Devletleri",
         "slug": "abd",
-        "timezone": "America/New_York"
+        "timezone": "America/New_York",
+        "latitude": 37.09024,
+        "longitude": -95.712891
     },
     {
         "name": "Andorra",
         "slug": "andorra",
-        "timezone": "Europe/Andorra"
+        "timezone": "Europe/Andorra",
+        "latitude": 42.546245,
+        "longitude": 1.601554
     },
     {
         "name": "Angola",
         "slug": "angola",
-        "timezone": "Africa/Luanda"
+        "timezone": "Africa/Luanda",
+        "latitude": -11.202692,
+        "longitude": 17.873887
     },
     {
         "name": "Arjantin",
         "slug": "arjantin",
-        "timezone": "America/Argentina/Buenos_Aires"
+        "timezone": "America/Argentina/Buenos_Aires",
+        "latitude": -38.416097,
+        "longitude": -63.616672
     },
     {
         "name": "Ermenistan",
         "slug": "ermenistan",
-        "timezone": "Asia/Yerevan"
+        "timezone": "Asia/Yerevan",
+        "latitude": 40.069099,
+        "longitude": 45.038189
     },
     {
         "name": "Avustralya",
         "slug": "avustralya",
-        "timezone": "Australia/Sydney"
+        "timezone": "Australia/Sydney",
+        "latitude": -25.274398,
+        "longitude": 133.775136
     },
     {
         "name": "Avusturya",
         "slug": "avusturya",
-        "timezone": "Europe/Vienna"
+        "timezone": "Europe/Vienna",
+        "latitude": 47.516231,
+        "longitude": 14.550072
     },
     {
         "name": "Azerbaycan",
         "slug": "azerbaycan",
-        "timezone": "Asia/Baku"
+        "timezone": "Asia/Baku",
+        "latitude": 40.143105,
+        "longitude": 47.576927
     },
     {
         "name": "Bahamas",
         "slug": "bahamas",
-        "timezone": "America/Nassau"
+        "timezone": "America/Nassau",
+        "latitude": 25.03428,
+        "longitude": -77.39628
     },
     {
         "name": "Bahreyn",
         "slug": "bahreyn",
-        "timezone": "Asia/Bahrain"
+        "timezone": "Asia/Bahrain",
+        "latitude": 26.0667,
+        "longitude": 50.5577
     },
     {
         "name": "Bangladeş",
         "slug": "banglades",
-        "timezone": "Asia/Dhaka"
+        "timezone": "Asia/Dhaka",
+        "latitude": 23.685,
+        "longitude": 90.3563
     },
     {
         "name": "Belçika",
         "slug": "belcika",
-        "timezone": "Europe/Brussels"
+        "timezone": "Europe/Brussels",
+        "latitude": 50.8503,
+        "longitude": 4.3517
     },
     {
         "name": "Belize",
         "slug": "belize",
-        "timezone": "America/Belize"
+        "timezone": "America/Belize",
+        "latitude": 17.1899,
+        "longitude": -88.4976
     },
     {
         "name": "Benin",
         "slug": "benin",
-        "timezone": "Africa/Porto-Novo"
+        "timezone": "Africa/Porto-Novo",
+        "latitude": 9.3077,
+        "longitude": 2.3158
     },
     {
         "name": "Bhutan",
         "slug": "bhutan",
-        "timezone": "Asia/Thimphu"
+        "timezone": "Asia/Thimphu",
+        "latitude": 27.5142,
+        "longitude": 90.4336
     },
     {
         "name": "Bolivya",
         "slug": "bolivya",
-        "timezone": "America/La_Paz"
+        "timezone": "America/La_Paz",
+        "latitude": -16.2902,
+        "longitude": -63.5887
     },
     {
         "name": "Bosna-Hersek",
         "slug": "bosna-hersek",
-        "timezone": "Europe/Sarajevo"
+        "timezone": "Europe/Sarajevo",
+        "latitude": 43.9159,
+        "longitude": 17.6791
     },
     {
         "name": "Brezilya",
         "slug": "brezilya",
-        "timezone": "America/Sao_Paulo"
+        "timezone": "America/Sao_Paulo",
+        "latitude": -14.235,
+        "longitude": -51.9253
     },
     {
         "name": "Bulgaristan",
         "slug": "bulgaristan",
-        "timezone": "Europe/Sofia"
+        "timezone": "Europe/Sofia",
+        "latitude": 42.7339,
+        "longitude": 25.4858
     },
     {
         "name": "Kanada",
         "slug": "kanada",
-        "timezone": "America/Toronto"
+        "timezone": "America/Toronto",
+        "latitude": 56.1304,
+        "longitude": -106.3468
     },
     {
         "name": "Şili",
         "slug": "sili",
-        "timezone": "America/Santiago"
+        "timezone": "America/Santiago",
+        "latitude": -35.6751,
+        "longitude": -71.543
     },
     {
         "name": "Çin",
         "slug": "cin",
-        "timezone": "Asia/Shanghai"
+        "timezone": "Asia/Shanghai",
+        "latitude": 35.8617,
+        "longitude": 104.1954
     },
     {
         "name": "Kolombiya",
         "slug": "kolombiya",
-        "timezone": "America/Bogota"
+        "timezone": "America/Bogota",
+        "latitude": 4.5709,
+        "longitude": -74.2973
     },
     {
         "name": "Hırvatistan",
         "slug": "hirvatistan",
-        "timezone": "Europe/Zagreb"
+        "timezone": "Europe/Zagreb",
+        "latitude": 45.1,
+        "longitude": 15.2
     },
     {
         "name": "Çekya",
         "slug": "cekya",
-        "timezone": "Europe/Prague"
+        "timezone": "Europe/Prague",
+        "latitude": 49.8175,
+        "longitude": 15.473
     },
     {
         "name": "Danimarka",
         "slug": "danimarka",
-        "timezone": "Europe/Copenhagen"
+        "timezone": "Europe/Copenhagen",
+        "latitude": 56.2639,
+        "longitude": 9.5018
     },
     {
         "name": "Mısır",
         "slug": "misir",
-        "timezone": "Africa/Cairo"
+        "timezone": "Africa/Cairo",
+        "latitude": 26.8206,
+        "longitude": 30.8025
     },
     {
         "name": "Fransa",
         "slug": "fransa",
-        "timezone": "Europe/Paris"
+        "timezone": "Europe/Paris",
+        "latitude": 46.603354,
+        "longitude": 1.888334
     },
     {
         "name": "Almanya",
         "slug": "almanya",
-        "timezone": "Europe/Berlin"
+        "timezone": "Europe/Berlin",
+        "latitude": 51.165691,
+        "longitude": 10.451526
     },
     {
         "name": "Yunanistan",
         "slug": "yunanistan",
-        "timezone": "Europe/Athens"
+        "timezone": "Europe/Athens",
+        "latitude": 39.074208,
+        "longitude": 21.824312
     },
     {
         "name": "Hindistan",
         "slug": "hindistan",
-        "timezone": "Asia/Kolkata"
+        "timezone": "Asia/Kolkata",
+        "latitude": 20.593684,
+        "longitude": 78.96288
     },
     {
         "name": "Endonezya",
         "slug": "endonezya",
-        "timezone": "Asia/Jakarta"
+        "timezone": "Asia/Jakarta",
+        "latitude": -0.789275,
+        "longitude": 113.921327
     },
     {
         "name": "İran",
         "slug": "iran",
-        "timezone": "Asia/Tehran"
+        "timezone": "Asia/Tehran",
+        "latitude": 32.427908,
+        "longitude": 53.688046
     },
     {
         "name": "İtalya",
         "slug": "italya",
-        "timezone": "Europe/Rome"
+        "timezone": "Europe/Rome",
+        "latitude": 41.87194,
+        "longitude": 12.56738
     },
     {
         "name": "Japonya",
         "slug": "japonya",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Tokyo",
+        "latitude": 36.204824,
+        "longitude": 138.252924
     },
     {
         "name": "Meksika",
         "slug": "meksika",
-        "timezone": "America/Mexico_City"
+        "timezone": "America/Mexico_City",
+        "latitude": 23.634501,
+        "longitude": -102.552784
     },
     {
         "name": "Hollanda",
         "slug": "hollanda",
-        "timezone": "Europe/Amsterdam"
+        "timezone": "Europe/Amsterdam",
+        "latitude": 52.132633,
+        "longitude": 5.291266
     },
     {
         "name": "Norveç",
         "slug": "norvec",
-        "timezone": "Europe/Oslo"
+        "timezone": "Europe/Oslo",
+        "latitude": 60.472024,
+        "longitude": 8.468946
     },
     {
         "name": "Polonya",
         "slug": "polonya",
-        "timezone": "Europe/Warsaw"
+        "timezone": "Europe/Warsaw",
+        "latitude": 51.919438,
+        "longitude": 19.145136
     },
     {
         "name": "Portekiz",
         "slug": "portekiz",
-        "timezone": "Europe/Lisbon"
+        "timezone": "Europe/Lisbon",
+        "latitude": 39.399872,
+        "longitude": -8.224454
     },
     {
         "name": "Rusya",
         "slug": "rusya",
-        "timezone": "Europe/Moscow"
+        "timezone": "Europe/Moscow",
+        "latitude": 61.52401,
+        "longitude": 105.318756
     },
     {
         "name": "Suudi Arabistan",
         "slug": "suudi-arabistan",
-        "timezone": "Asia/Riyadh"
+        "timezone": "Asia/Riyadh",
+        "latitude": 23.885942,
+        "longitude": 45.079162
     },
     {
         "name": "İspanya",
         "slug": "ispanya",
-        "timezone": "Europe/Madrid"
+        "timezone": "Europe/Madrid",
+        "latitude": 40.463667,
+        "longitude": -3.74922
     },
     {
         "name": "İsveç",
         "slug": "isvec",
-        "timezone": "Europe/Stockholm"
+        "timezone": "Europe/Stockholm",
+        "latitude": 60.128161,
+        "longitude": 18.643501
     },
     {
         "name": "İsviçre",
         "slug": "isvicre",
-        "timezone": "Europe/Zurich"
+        "timezone": "Europe/Zurich",
+        "latitude": 46.818188,
+        "longitude": 8.227512
     },
     {
         "name": "Türkiye",
         "slug": "turkiye",
-        "timezone": "Europe/Istanbul"
+        "timezone": "Europe/Istanbul",
+        "latitude": 38.963745,
+        "longitude": 35.243322
     },
     {
         "name": "Ukrayna",
         "slug": "ukrayna",
-        "timezone": "Europe/Kiev"
+        "timezone": "Europe/Kiev",
+        "latitude": 48.379433,
+        "longitude": 31.16558
     },
     {
         "name": "İngiltere",
         "slug": "ingiltere",
-        "timezone": "Europe/London"
+        "timezone": "Europe/London",
+        "latitude": 55.378051,
+        "longitude": -3.435973
     },
     {
         "name": "Vietnam",
         "slug": "vietnam",
-        "timezone": "Asia/Ho_Chi_Minh"
+        "timezone": "Asia/Ho_Chi_Minh",
+        "latitude": 14.058324,
+        "longitude": 108.277199
     },
     {
         "name": "Güney Afrika",
         "slug": "guney-afrika",
-        "timezone": "Africa/Johannesburg"
+        "timezone": "Africa/Johannesburg",
+        "latitude": -30.559482,
+        "longitude": 22.937506
+    },
+    {
+        "name": "İzlanda",
+        "slug": "izlanda",
+        "timezone": "Atlantic/Reykjavik",
+        "latitude": 64.963051,
+        "longitude": -19.020835
     }
 ]

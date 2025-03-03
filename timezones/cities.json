@@ -3,264 +3,352 @@
         "name": "İstanbul",
         "slug": "istanbul",
         "timezone": "Europe/Istanbul",
-        "country": "Türkiye"
+        "country": "Türkiye",
+        "latitude": 41.0082,
+        "longitude": 28.9784
     },
     {
         "name": "New York",
         "slug": "new-york",
         "timezone": "America/New_York",
-        "country": "Amerika Birleşik Devletleri"
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "name": "Paris",
         "slug": "paris",
         "timezone": "Europe/Paris",
-        "country": "Fransa"
+        "country": "Fransa",
+        "latitude": 48.8566,
+        "longitude": 2.3522
     },
     {
         "name": "Tokyo",
         "slug": "tokyo",
         "timezone": "Asia/Tokyo",
-        "country": "Japonya"
+        "country": "Japonya",
+        "latitude": 35.682839,
+        "longitude": 139.759455
     },
     {
         "name": "Londra",
         "slug": "londra",
         "timezone": "Europe/London",
-        "country": "İngiltere"
+        "country": "İngiltere",
+        "latitude": 51.5074,
+        "longitude": -0.1278
     },
     {
         "name": "Dubai",
         "slug": "dubai",
         "timezone": "Asia/Dubai",
-        "country": "Birleşik Arap Emirlikleri"
+        "country": "Birleşik Arap Emirlikleri",
+        "latitude": 25.276987,
+        "longitude": 55.296249
     },
     {
         "name": "Şikago",
         "slug": "sikago",
         "timezone": "America/Chicago",
-        "country": "Amerika Birleşik Devletleri"
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 41.8781,
+        "longitude": -87.6298
     },
     {
         "name": "Hong Kong",
         "slug": "hong-kong",
         "timezone": "Asia/Hong_Kong",
-        "country": "Çin"
+        "country": "Çin",
+        "latitude": 22.3193,
+        "longitude": 114.1694
     },
     {
         "name": "Sydney",
         "slug": "sydney",
         "timezone": "Australia/Sydney",
-        "country": "Avustralya"
+        "country": "Avustralya",
+        "latitude": -33.8688,
+        "longitude": 151.2093
     },
     {
         "name": "Berlin",
         "slug": "berlin",
         "timezone": "Europe/Berlin",
-        "country": "Almanya"
+        "country": "Almanya",
+        "latitude": 52.52,
+        "longitude": 13.405
     },
     {
         "name": "Moskova",
         "slug": "moskova",
         "timezone": "Europe/Moscow",
-        "country": "Rusya"
+        "country": "Rusya",
+        "latitude": 55.7558,
+        "longitude": 37.6176
     },
     {
         "name": "Los Angeles",
         "slug": "los-angeles",
         "timezone": "America/Los_Angeles",
-        "country": "Amerika Birleşik Devletleri"
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 34.0522,
+        "longitude": -118.2437
     },
     {
         "name": "Singapur",
         "slug": "singapur",
         "timezone": "Asia/Singapore",
-        "country": "Singapur"
+        "country": "Singapur",
+        "latitude": 1.3521,
+        "longitude": 103.8198
     },
     {
         "name": "Seul",
         "slug": "seul",
         "timezone": "Asia/Seoul",
-        "country": "Güney Kore"
+        "country": "Güney Kore",
+        "latitude": 37.5665,
+        "longitude": 126.978
     },
     {
         "name": "Roma",
         "slug": "roma",
         "timezone": "Europe/Rome",
-        "country": "İtalya"
+        "country": "İtalya",
+        "latitude": 41.9028,
+        "longitude": 12.4964
     },
     {
         "name": "Bangkok",
         "slug": "bangkok",
         "timezone": "Asia/Bangkok",
-        "country": "Tayland"
+        "country": "Tayland",
+        "latitude": 13.7563,
+        "longitude": 100.5018
     },
     {
         "name": "Madrid",
         "slug": "madrid",
         "timezone": "Europe/Madrid",
-        "country": "İspanya"
+        "country": "İspanya",
+        "latitude": 40.4168,
+        "longitude": -3.7038
     },
     {
         "name": "Toronto",
         "slug": "toronto",
         "timezone": "America/Toronto",
-        "country": "Kanada"
+        "country": "Kanada",
+        "latitude": 43.65107,
+        "longitude": -79.347015
     },
     {
         "name": "Mexico City",
         "slug": "mexico-city",
         "timezone": "America/Mexico_City",
-        "country": "Meksika"
+        "country": "Meksika",
+        "latitude": 19.4326,
+        "longitude": -99.1332
     },
     {
         "name": "Pekin",
         "slug": "pekin",
         "timezone": "Asia/Shanghai",
-        "country": "Çin"
+        "country": "Çin",
+        "latitude": 39.9042,
+        "longitude": 116.4074
     },
     {
         "name": "Mumbai",
         "slug": "mumbai",
         "timezone": "Asia/Kolkata",
-        "country": "Hindistan"
+        "country": "Hindistan",
+        "latitude": 19.076,
+        "longitude": 72.8777
     },
     {
         "name": "Jakarta",
         "slug": "jakarta",
         "timezone": "Asia/Jakarta",
-        "country": "Endonezya"
+        "country": "Endonezya",
+        "latitude": -6.2088,
+        "longitude": 106.8456
     },
     {
         "name": "Cape Town",
         "slug": "cape-town",
         "timezone": "Africa/Johannesburg",
-        "country": "Güney Afrika"
+        "country": "Güney Afrika",
+        "latitude": -33.9249,
+        "longitude": 18.4241
     },
     {
         "name": "Amsterdam",
         "slug": "amsterdam",
         "timezone": "Europe/Amsterdam",
-        "country": "Hollanda"
+        "country": "Hollanda",
+        "latitude": 52.3676,
+        "longitude": 4.9041
     },
     {
         "name": "Dublin",
         "slug": "dublin",
         "timezone": "Europe/Dublin",
-        "country": "İrlanda"
+        "country": "İrlanda",
+        "latitude": 53.3498,
+        "longitude": -6.2603
     },
     {
         "name": "Oslo",
         "slug": "oslo",
         "timezone": "Europe/Oslo",
-        "country": "Norveç"
+        "country": "Norveç",
+        "latitude": 59.9139,
+        "longitude": 10.7522
     },
     {
         "name": "Frankfurt",
         "slug": "frankfurt",
         "timezone": "Europe/Berlin",
-        "country": "Almanya"
+        "country": "Almanya",
+        "latitude": 50.1109,
+        "longitude": 8.6821
     },
     {
         "name": "Helsinki",
         "slug": "helsinki",
         "timezone": "Europe/Helsinki",
-        "country": "Finlandiya"
+        "country": "Finlandiya",
+        "latitude": 60.1695,
+        "longitude": 24.9354
     },
     {
         "name": "Stockholm",
         "slug": "stockholm",
         "timezone": "Europe/Stockholm",
-        "country": "İsveç"
+        "country": "İsveç",
+        "latitude": 59.3293,
+        "longitude": 18.0686
     },
     {
         "name": "Vancouver",
         "slug": "vancouver",
         "timezone": "America/Vancouver",
-        "country": "Kanada"
+        "country": "Kanada",
+        "latitude": 49.2827,
+        "longitude": -123.1207
     },
     {
         "name": "San Francisco",
         "slug": "san-francisco",
         "timezone": "America/Los_Angeles",
-        "country": "Amerika Birleşik Devletleri"
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
         "name": "Washington, D.C.",
         "slug": "washington-dc",
         "timezone": "America/New_York",
-        "country": "Amerika Birleşik Devletleri"
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 38.9072,
+        "longitude": -77.0369
     },
     {
         "name": "Rio de Janeiro",
         "slug": "rio-de-janeiro",
         "timezone": "America/Sao_Paulo",
-        "country": "Brezilya"
+        "country": "Brezilya",
+        "latitude": -22.9068,
+        "longitude": -43.1729
     },
     {
         "name": "São Paulo",
         "slug": "sao-paulo",
         "timezone": "America/Sao_Paulo",
-        "country": "Brezilya"
+        "country": "Brezilya",
+        "latitude": -23.5505,
+        "longitude": -46.6333
     },
     {
         "name": "Buenos Aires",
         "slug": "buenos-aires",
         "timezone": "America/Argentina/Buenos_Aires",
-        "country": "Arjantin"
+        "country": "Arjantin",
+        "latitude": -34.6037,
+        "longitude": -58.3816
     },
     {
         "name": "Abu Dabi",
         "slug": "abu-dhabi",
         "timezone": "Asia/Dubai",
-        "country": "Birleşik Arap Emirlikleri"
+        "country": "Birleşik Arap Emirlikleri",
+        "latitude": 24.4539,
+        "longitude": 54.3773
     },
     {
         "name": "Delhi",
         "slug": "delhi",
         "timezone": "Asia/Kolkata",
-        "country": "Hindistan"
+        "country": "Hindistan",
+        "latitude": 28.6139,
+        "longitude": 77.2090
     },
     {
         "name": "Miami",
         "slug": "miami",
         "timezone": "America/New_York",
-        "country": "Amerika Birleşik Devletleri"
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 25.7617,
+        "longitude": -80.1918
     },
     {
         "name": "Milano",
         "slug": "milano",
         "timezone": "Europe/Rome",
-        "country": "İtalya"
+        "country": "İtalya",
+        "latitude": 45.4642,
+        "longitude": 9.1900
     },
     {
         "name": "Taipei",
         "slug": "taipei",
         "timezone": "Asia/Taipei",
-        "country": "Tayvan"
+        "country": "Tayvan",
+        "latitude": 25.0330,
+        "longitude": 121.5654
     },
     {
         "name": "Tel Aviv",
         "slug": "tel-aviv",
         "timezone": "Asia/Jerusalem",
-        "country": "İsrail"
+        "country": "İsrail",
+        "latitude": 32.0853,
+        "longitude": 34.7818
     },
     {
         "name": "Reykjavik",
         "slug": "reykjavik",
         "timezone": "Atlantic/Reykjavik",
-        "country": "İzlanda"
+        "country": "İzlanda",
+        "latitude": 64.1355,
+        "longitude": -21.8954
     },
     {
         "name": "Hanoi",
         "slug": "hanoi",
         "timezone": "Asia/Ho_Chi_Minh",
-        "country": "Vietnam"
+        "country": "Vietnam",
+        "latitude": 21.0285,
+        "longitude": 105.8544
     },
     {
         "name": "Tahran",
         "slug": "tahran",
         "timezone": "Asia/Tehran",
-        "country": "İran"
+        "country": "İran",
+        "latitude": 35.6892,
+        "longitude": 51.3890
     }
 ]

@@ -1,36 +1,43 @@
 package models
 
 type Country struct {
-	Name     string  `json:"name"`
-	Slug     string  `json:"slug"`
-	Timezone string  `json:"timezone"`
-	Type     *string `json:"type,omitempty"`
+	Name      string  `json:"name"`
+	Slug      string  `json:"slug"`
+	Timezone  string  `json:"timezone"`
+	Type      *string `json:"type,omitempty"`
+	Latitude  float64 `json:"latitude"`
+	Longitude float64 `json:"longitude"`
 }
 
 type City struct {
-	Name     string  `json:"name"`
-	Slug     string  `json:"slug"`
-	Timezone string  `json:"timezone"`
-	Country  string  `json:"country"`
-	Type     *string `json:"type,omitempty"`
+	Name      string  `json:"name"`
+	Slug      string  `json:"slug"`
+	Timezone  string  `json:"timezone"`
+	Country   string  `json:"country"`
+	Type      *string `json:"type,omitempty"`
+	Latitude  float64 `json:"latitude"`
+	Longitude float64 `json:"longitude"`
 }
 
 type Response struct {
-	Year          int        `json:"year"`
-	Month         int        `json:"month"`
-	Day           int        `json:"day"`
-	Hour          int        `json:"hour"`
-	Minute        int        `json:"minute"`
-	Seconds       int        `json:"seconds"`
-	MilliSeconds  int        `json:"milliSeconds"`
-	DateTime      string     `json:"dateTime"`
-	Date          string     `json:"date"`
-	Time          string     `json:"time"`
-	DayOfWeek     string     `json:"dayOfWeek"`
-	DstActive     bool       `json:"dstActive"`
-	LocationText  string     `json:"locationText"`
-	Timezone      City       `json:"timezone"`
-	PopulerCities []CityTime `json:"populerCities"`
+	Year             int        `json:"year"`
+	Month            int        `json:"month"`
+	Day              int        `json:"day"`
+	Hour             int        `json:"hour"`
+	Minute           int        `json:"minute"`
+	Seconds          int        `json:"seconds"`
+	MilliSeconds     int        `json:"milliSeconds"`
+	DateTime         string     `json:"dateTime"`
+	Date             string     `json:"date"`
+	Time             string     `json:"time"`
+	DayOfWeek        string     `json:"dayOfWeek"`
+	DstActive        bool       `json:"dstActive"`
+	LocationText     string     `json:"locationText"`
+	Timezone         City       `json:"timezone"`
+	PopulerCities    []CityTime `json:"populerCities"`
+	Sunrise          string     `json:"sunrise"`
+	Sunset           string     `json:"sunset"`
+	SunsetDifference string     `json:"sunsetDifference"`
 }
 
 type CityTime struct {

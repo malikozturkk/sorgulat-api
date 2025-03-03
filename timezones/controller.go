@@ -2,11 +2,14 @@ package timezones
 
 import (
 	"encoding/json"
+	"fmt"
 	"net/http"
 	"sorgulat-api/timezones/models"
 	"sorgulat-api/timezones/utils"
 	"strings"
 	"time"
+
+	"github.com/nathan-osman/go-sunrise"
 )
 
 var (
@@ -14,13 +17,20 @@ var (
 	countries = utils.LoadData[models.Country]("countries")
 )
 
-func getTimeForLocation(timezone string, locationName string, slug string, country *string, typeOpt *string) (models.Response, error) {
+func getTimeForLocation(timezone string, locationName string, slug string, country *string, typeOpt *string, latitude float64, longitude float64) (models.Response, error) {
 	loc, err := time.LoadLocation(timezone)
 	if err != nil {
 		return models.Response{}, err
 	}
 	now := time.Now().In(loc)
-	suffix := utils.GetLocationSuffix(locationName)
+
+	year, month, day := now.Date()
+	sunriseTime, sunsetTime := sunrise.SunriseSunset(latitude, longitude, year, month, day)
+
+	sunriseLocal := sunriseTime.In(loc).Format("15:04")
+	sunsetLocal := sunsetTime.In(loc).Format("15:04")
+	sunsetTimeDifference := sunsetTime.Sub(sunriseTime)
+
 	populerCities := make([]models.CityTime, 0, 6)
 	for i, city := range cities {
 		if i >= 6 {
@@ -54,7 +64,7 @@ func getTimeForLocation(timezone string, locationName string, slug string, count
 		Time:         now.Format("15:04"),
 		DayOfWeek:    now.Weekday().String(),
 		DstActive:    now.IsDST(),
-		LocationText: suffix,
+		LocationText: utils.GetLocationSuffix(locationName),
 		Timezone: models.City{
 			Name:     locationName,
 			Slug:     slug,
@@ -68,6 +78,11 @@ func getTimeForLocation(timezone string, locationName string, slug string, count
 			Type: typeOpt,
 		},
 		PopulerCities: populerCities,
+		Sunrise:       sunriseLocal,
+		Sunset:        sunsetLocal,
+		SunsetDifference: fmt.Sprintf("%02ds %02dd",
+			int(sunsetTimeDifference.Hours()),
+			int(sunsetTimeDifference.Minutes())%60),
 	}, nil
 }
 
@@ -81,6 +96,8 @@ func GetTimezoneBySlug(w http.ResponseWriter, r *http.Request) {
 		locationName string
 		country      *string
 		typeOpt      *string
+		latitude     float64
+		longitude    float64
 	)
 
 	for _, city := range cities {
@@ -88,6 +105,8 @@ func GetTimezoneBySlug(w http.ResponseWriter, r *http.Request) {
 			found = city
 			locationName = city.Name
 			country = &city.Country
+			latitude = city.Latitude
+			longitude = city.Longitude
 			break
 		}
 	}
@@ -98,6 +117,8 @@ func GetTimezoneBySlug(w http.ResponseWriter, r *http.Request) {
 				foundCountry = countryData
 				locationName = countryData.Name
 				country = &foundCountry.Name
+				latitude = foundCountry.Latitude
+				longitude = foundCountry.Longitude
 				break
 			}
 		}
@@ -113,7 +134,7 @@ func GetTimezoneBySlug(w http.ResponseWriter, r *http.Request) {
 		timezone = foundCountry.Timezone
 	}
 
-	response, err := getTimeForLocation(timezone, locationName, name, country, typeOpt)
+	response, err := getTimeForLocation(timezone, locationName, name, country, typeOpt, latitude, longitude)
 	if err != nil {
 		http.Error(w, "Saat hesaplanırken hata oluştu", http.StatusInternalServerError)
 		return
