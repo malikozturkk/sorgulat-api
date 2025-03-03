@@ -97,6 +97,7 @@ func GetTimezoneBySlug(w http.ResponseWriter, r *http.Request) {
 			if countryData.Slug == name {
 				foundCountry = countryData
 				locationName = countryData.Name
+				country = &foundCountry.Name
 				break
 			}
 		}
@@ -108,6 +109,9 @@ func GetTimezoneBySlug(w http.ResponseWriter, r *http.Request) {
 	}
 
 	timezone := found.Timezone
+	if found.Slug == "" {
+		timezone = foundCountry.Timezone
+	}
 
 	response, err := getTimeForLocation(timezone, locationName, name, country, typeOpt)
 	if err != nil {
