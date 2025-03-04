@@ -53,10 +53,10 @@ func findReferenceTimezone(name string) string {
 	return ""
 }
 
-func getRandomCities(exclude string) []models.City {
+func getRandomCities(exclude, refCountry string) []models.City {
 	var filteredCities []models.City
 	for _, city := range cities {
-		if city.Slug != exclude {
+		if city.Slug != exclude && city.Country != refCountry {
 			filteredCities = append(filteredCities, city)
 		}
 	}
@@ -65,7 +65,21 @@ func getRandomCities(exclude string) []models.City {
 		filteredCities[i], filteredCities[j] = filteredCities[j], filteredCities[i]
 	})
 
-	return filteredCities[:20]
+	addedCountries := make(map[string]bool)
+	var uniqueCities []models.City
+
+	for _, city := range filteredCities {
+		if addedCountries[city.Country] {
+			continue
+		}
+		addedCountries[city.Country] = true
+		uniqueCities = append(uniqueCities, city)
+		if len(uniqueCities) >= 20 {
+			break
+		}
+	}
+
+	return uniqueCities
 }
 
 func GetDifferenceBySlug(w http.ResponseWriter, r *http.Request) {
@@ -80,7 +94,15 @@ func GetDifferenceBySlug(w http.ResponseWriter, r *http.Request) {
 
 	refOffset := getUTCOffset(refTimezone)
 
-	randomCities := getRandomCities(slug)
+	var refCountry string
+	for _, city := range cities {
+		if city.Slug == slug {
+			refCountry = city.Country
+			break
+		}
+	}
+
+	randomCities := getRandomCities(slug, refCountry)
 
 	response := struct {
 		From         string        `json:"from"`
