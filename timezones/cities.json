@@ -2302,5 +2302,181 @@
         "country": "Güney Sudan",
         "latitude": 4.8594,
         "longitude": 31.5713
+    },
+    {
+        "name": "İslamabad",
+        "slug": "islamabad",
+        "timezone": "Asia/Karachi",
+        "country": "Pakistan",
+        "latitude": 33.6844,
+        "longitude": 73.0479
+    },
+    {
+        "name": "Lahor",
+        "slug": "lahor",
+        "timezone": "Asia/Karachi",
+        "country": "Pakistan",
+        "latitude": 31.5497,
+        "longitude": 74.3436
+    },
+    {
+        "name": "Karaçi",
+        "slug": "karaci",
+        "timezone": "Asia/Karachi",
+        "country": "Pakistan",
+        "latitude": 24.8608,
+        "longitude": 67.0104
+    },
+    {
+        "name": "Peşaver",
+        "slug": "pesaver",
+        "timezone": "Asia/Karachi",
+        "country": "Pakistan",
+        "latitude": 34.0150,
+        "longitude": 71.5249
+    },
+    {
+        "name": "Taşkent",
+        "slug": "taskent",
+        "timezone": "Asia/Tashkent",
+        "country": "Özbekistan",
+        "latitude": 41.2995,
+        "longitude": 69.2401
+    },
+    {
+        "name": "Semerkant",
+        "slug": "semerkant",
+        "timezone": "Asia/Tashkent",
+        "country": "Özbekistan",
+        "latitude": 39.6547,
+        "longitude": 66.9758
+    },
+    {
+        "name": "Bişkek",
+        "slug": "biskek",
+        "timezone": "Asia/Bishkek",
+        "country": "Kırgızistan",
+        "latitude": 42.8746,
+        "longitude": 74.5698
+    },
+    {
+        "name": "Oş",
+        "slug": "os",
+        "timezone": "Asia/Bishkek",
+        "country": "Kırgızistan",
+        "latitude": 40.5283,
+        "longitude": 72.7985
+    },
+    {
+        "name": "Duşanbe",
+        "slug": "dusanbe",
+        "timezone": "Asia/Dushanbe",
+        "country": "Tacikistan",
+        "latitude": 38.5737,
+        "longitude": 68.7738
+    },
+    {
+        "name": "Aşkabat",
+        "slug": "askabat",
+        "timezone": "Asia/Ashgabat",
+        "country": "Türkmenistan",
+        "latitude": 37.9601,
+        "longitude": 58.3261
+    },
+    {
+        "name": "Mary",
+        "slug": "mary",
+        "timezone": "Asia/Ashgabat",
+        "country": "Türkmenistan",
+        "latitude": 37.6000,
+        "longitude": 61.8333
+    },
+    {
+        "name": "Astana",
+        "slug": "astana",
+        "timezone": "Asia/Almaty",
+        "country": "Kazakistan",
+        "latitude": 51.1282,
+        "longitude": 71.4304
+    },
+    {
+        "name": "Almatı",
+        "slug": "almati",
+        "timezone": "Asia/Almaty",
+        "country": "Kazakistan",
+        "latitude": 43.2220,
+        "longitude": 76.8512
+    },
+    {
+        "name": "Ulan Batur",
+        "slug": "ulan-batur",
+        "timezone": "Asia/Ulaanbaatar",
+        "country": "Moğolistan",
+        "latitude": 47.8864,
+        "longitude": 106.9057
+    },
+    {
+        "name": "Ulan-Ude",
+        "slug": "ulan-ude",
+        "timezone": "Asia/Irkutsk",
+        "country": "Rusya",
+        "latitude": 51.8333,
+        "longitude": 107.6000
+    },
+    {
+        "name": "Vladivostok",
+        "slug": "vladivostok",
+        "timezone": "Asia/Vladivostok",
+        "country": "Rusya",
+        "latitude": 43.1333,
+        "longitude": 131.9000
+    },
+    {
+        "name": "Habarovsk",
+        "slug": "habarovsk",
+        "timezone": "Asia/Vladivostok",
+        "country": "Rusya",
+        "latitude": 48.4827,
+        "longitude": 135.0848
+    },
+    {
+        "name": "Yakutsk",
+        "slug": "yakutsk",
+        "timezone": "Asia/Yakutsk",
+        "country": "Rusya",
+        "latitude": 62.0355,
+        "longitude": 129.6755
+    },
+    {
+        "name": "Magadan",
+        "slug": "magadan",
+        "timezone": "Asia/Magadan",
+        "country": "Rusya",
+        "latitude": 59.5683,
+        "longitude": 150.8085
+    },
+    {
+        "name": "Petropavlovsk-Kamçatski",
+        "slug": "petropavlovsk-kamcatski",
+        "timezone": "Asia/Kamchatka",
+        "country": "Rusya",
+        "latitude": 53.0167,
+        "longitude": 158.6500
+    },
+    {
+        "name": "Anadyr",
+        "slug": "anadyr",
+        "timezone": "Asia/Anadyr",
+        "country": "Rusya",
+        "latitude": 64.7333,
+        "longitude": 177.5167
+    },
+    {
+        "name": "Erdenet",
+        "slug": "erdenet",
+        "timezone": "Asia/Ulaanbaatar",
+        "country": "Moğolistan",
+        "latitude": 49.0333,
+        "longitude": 104.0833
     }
 ]
