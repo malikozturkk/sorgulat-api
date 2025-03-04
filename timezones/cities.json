@@ -1850,8 +1850,8 @@
     {
         "name": "Kudüs",
         "slug": "kudus",
-        "timezone": "Asia/Jerusalem",
-        "country": "İsrail",
+        "timezone": "Asia/Gaza",
+        "country": "Filistin",
         "latitude": 31.7683,
         "longitude": 35.2137
     },
