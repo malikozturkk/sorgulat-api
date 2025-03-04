@@ -376,5 +376,782 @@
         "timezone": "Atlantic/Reykjavik",
         "latitude": 64.963051,
         "longitude": -19.020835
+    },
+    {
+        "name": "Güney Kore",
+        "slug": "guney-kore",
+        "timezone": "Asia/Seoul",
+        "latitude": 35.907757,
+        "longitude": 127.766922
+    },
+    {
+        "name": "Kuzey Kore",
+        "slug": "kuzey-kore",
+        "timezone": "Asia/Pyongyang",
+        "latitude": 40.339852,
+        "longitude": 127.510093
+    },
+    {
+        "name": "Singapur",
+        "slug": "singapur",
+        "timezone": "Asia/Singapore",
+        "latitude": 1.352083,
+        "longitude": 103.819836
+    },
+    {
+        "name": "Malezya",
+        "slug": "malezya",
+        "timezone": "Asia/Kuala_Lumpur",
+        "latitude": 4.210484,
+        "longitude": 101.975766
+    },
+    {
+        "name": "Tayland",
+        "slug": "tayland",
+        "timezone": "Asia/Bangkok",
+        "latitude": 15.870032,
+        "longitude": 100.992541
+    },
+    {
+        "name": "Birleşik Arap Emirlikleri",
+        "slug": "bae",
+        "timezone": "Asia/Dubai",
+        "latitude": 23.424076,
+        "longitude": 53.847818
+    },
+    {
+        "name": "Katar",
+        "slug": "katar",
+        "timezone": "Asia/Qatar",
+        "latitude": 25.354826,
+        "longitude": 51.183884
+    },
+    {
+        "name": "Kuveyt",
+        "slug": "kuveyt",
+        "timezone": "Asia/Kuwait",
+        "latitude": 29.31166,
+        "longitude": 47.481766
+    },
+    {
+        "name": "Umman",
+        "slug": "umman",
+        "timezone": "Asia/Muscat",
+        "latitude": 21.512583,
+        "longitude": 55.923255
+    },
+    {
+        "name": "Irak",
+        "slug": "irak",
+        "timezone": "Asia/Baghdad",
+        "latitude": 33.223191,
+        "longitude": 43.679291
+    },
+    {
+        "name": "İrlanda",
+        "slug": "irlanda",
+        "timezone": "Europe/Dublin",
+        "latitude": 53.41291,
+        "longitude": -8.24389
+    },
+    {
+        "name": "İsrail",
+        "slug": "israil",
+        "timezone": "Asia/Jerusalem",
+        "latitude": 31.046051,
+        "longitude": 34.851612
+    },
+    {
+        "name": "Filistin",
+        "slug": "filistin",
+        "timezone": "Asia/Gaza",
+        "latitude": 31.952162,
+        "longitude": 35.233154
+    },
+    {
+        "name": "Finlandiya",
+        "slug": "finlandiya",
+        "timezone": "Europe/Helsinki",
+        "latitude": 61.92411,
+        "longitude": 25.748151
+    },
+    {
+        "name": "Yeni Zelanda",
+        "slug": "yeni-zelanda",
+        "timezone": "Pacific/Auckland",
+        "latitude": -40.900557,
+        "longitude": 174.885971
+    },
+    {
+        "name": "Fas",
+        "slug": "fas",
+        "timezone": "Africa/Casablanca",
+        "latitude": 31.791702,
+        "longitude": -7.09262
+    },
+    {
+        "name": "Nijerya",
+        "slug": "nijerya",
+        "timezone": "Africa/Lagos",
+        "latitude": 9.081999,
+        "longitude": 8.675277
+    },
+    {
+        "name": "Kenya",
+        "slug": "kenya",
+        "timezone": "Africa/Nairobi",
+        "latitude": -0.023559,
+        "longitude": 37.906193
+    },
+    {
+        "name": "Güney Sudan",
+        "slug": "guney-sudan",
+        "timezone": "Africa/Juba",
+        "latitude": 6.876991,
+        "longitude": 31.306978
+    },
+    {
+        "name": "Sudan",
+        "slug": "sudan",
+        "timezone": "Africa/Khartoum",
+        "latitude": 12.862807,
+        "longitude": 30.217636
+    },
+    {
+        "name": "Etiyopya",
+        "slug": "etiyopya",
+        "timezone": "Africa/Addis_Ababa",
+        "latitude": 9.145,
+        "longitude": 40.489673
+    },
+    {
+        "name": "Somali",
+        "slug": "somali",
+        "timezone": "Africa/Mogadishu",
+        "latitude": 5.152149,
+        "longitude": 46.199616
+    },
+    {
+        "name": "Tanzanya",
+        "slug": "tanzanya",
+        "timezone": "Africa/Dar_es_Salaam",
+        "latitude": -6.369028,
+        "longitude": 34.888822
+    },
+    {
+        "name": "Uganda",
+        "slug": "uganda",
+        "timezone": "Africa/Kampala",
+        "latitude": 1.373333,
+        "longitude": 32.290275
+    },
+    {
+        "name": "Gana",
+        "slug": "gana",
+        "timezone": "Africa/Accra",
+        "latitude": 7.946527,
+        "longitude": -1.023194
+    },
+    {
+        "name": "Kamerun",
+        "slug": "kamerun",
+        "timezone": "Africa/Douala",
+        "latitude": 7.369722,
+        "longitude": 12.354722
+    },
+    {
+        "name": "Kongo Demokratik Cumhuriyeti",
+        "slug": "kongo-demokratik-cumhuriyeti",
+        "timezone": "Africa/Kinshasa",
+        "latitude": -4.038333,
+        "longitude": 21.758664
+    },
+    {
+        "name": "Kongo Cumhuriyeti",
+        "slug": "kongo-cumhuriyeti",
+        "timezone": "Africa/Brazzaville",
+        "latitude": -0.228021,
+        "longitude": 15.827659
+    },
+    {
+        "name": "Fildişi Sahili",
+        "slug": "fildisi-sahili",
+        "timezone": "Africa/Abidjan",
+        "latitude": 7.539989,
+        "longitude": -5.54708
+    },
+    {
+        "name": "Liberya",
+        "slug": "liberya",
+        "timezone": "Africa/Monrovia",
+        "latitude": 6.428055,
+        "longitude": -9.429499
+    },
+    {
+        "name": "Sierra Leone",
+        "slug": "sierra-leone",
+        "timezone": "Africa/Freetown",
+        "latitude": 8.460555,
+        "longitude": -11.779889
+    },
+    {
+        "name": "Gine",
+        "slug": "gine",
+        "timezone": "Africa/Conakry",
+        "latitude": 9.945587,
+        "longitude": -9.696645
+    },
+    {
+        "name": "Gine-Bissau",
+        "slug": "gine-bissau",
+        "timezone": "Africa/Bissau",
+        "latitude": 11.803749,
+        "longitude": -15.180413
+    },
+    {
+        "name": "Senegal",
+        "slug": "senegal",
+        "timezone": "Africa/Dakar",
+        "latitude": 14.497401,
+        "longitude": -14.452362
+    },
+    {
+        "name": "Gambiya",
+        "slug": "gambiya",
+        "timezone": "Africa/Banjul",
+        "latitude": 13.443182,
+        "longitude": -15.310139
+    },
+    {
+        "name": "Moritanya",
+        "slug": "moritanya",
+        "timezone": "Africa/Nouakchott",
+        "latitude": 21.00789,
+        "longitude": -10.940835
+    },
+    {
+        "name": "Mali",
+        "slug": "mali",
+        "timezone": "Africa/Bamako",
+        "latitude": 17.570692,
+        "longitude": -3.996166
+    },
+    {
+        "name": "Nijer",
+        "slug": "nijer",
+        "timezone": "Africa/Niamey",
+        "latitude": 17.607789,
+        "longitude": 8.081666
+    },
+    {
+        "name": "Çad",
+        "slug": "cad",
+        "timezone": "Africa/Ndjamena",
+        "latitude": 15.454166,
+        "longitude": 18.732207
+    },
+    {
+        "name": "Orta Afrika Cumhuriyeti",
+        "slug": "orta-afrika-cumhuriyeti",
+        "timezone": "Africa/Bangui",
+        "latitude": 6.611111,
+        "longitude": 20.939444
+    },
+    {
+        "name": "Gabon",
+        "slug": "gabon",
+        "timezone": "Africa/Libreville",
+        "latitude": -0.803689,
+        "longitude": 11.609444
+    },
+    {
+        "name": "Ekvator Ginesi",
+        "slug": "ekvator-ginesi",
+        "timezone": "Africa/Malabo",
+        "latitude": 1.650801,
+        "longitude": 10.267895
+    },
+    {
+        "name": "Burundi",
+        "slug": "burundi",
+        "timezone": "Africa/Bujumbura",
+        "latitude": -3.373056,
+        "longitude": 29.918886
+    },
+    {
+        "name": "Ruanda",
+        "slug": "ruanda",
+        "timezone": "Africa/Kigali",
+        "latitude": -1.940278,
+        "longitude": 29.873888
+    },
+    {
+        "name": "Namibya",
+        "slug": "namibya",
+        "timezone": "Africa/Windhoek",
+        "latitude": -22.95764,
+        "longitude": 18.49041
+    },
+    {
+        "name": "Botsvana",
+        "slug": "botsvana",
+        "timezone": "Africa/Gaborone",
+        "latitude": -22.328474,
+        "longitude": 24.684866
+    },
+    {
+        "name": "Zimbabve",
+        "slug": "zimbabve",
+        "timezone": "Africa/Harare",
+        "latitude": -19.015438,
+        "longitude": 29.154857
+    },
+    {
+        "name": "Zambiya",
+        "slug": "zambiya",
+        "timezone": "Africa/Lusaka",
+        "latitude": -13.133897,
+        "longitude": 27.849332
+    },
+    {
+        "name": "Mozambik",
+        "slug": "mozambik",
+        "timezone": "Africa/Maputo",
+        "latitude": -18.665695,
+        "longitude": 35.529562
+    },
+    {
+        "name": "Malavi",
+        "slug": "malavi",
+        "timezone": "Africa/Blantyre",
+        "latitude": -13.254308,
+        "longitude": 34.301525
+    },
+    {
+        "name": "Esvatini",
+        "slug": "esvatini",
+        "timezone": "Africa/Mbabane",
+        "latitude": -26.522503,
+        "longitude": 31.465866
+    },
+    {
+        "name": "Lesoto",
+        "slug": "lesoto",
+        "timezone": "Africa/Maseru",
+        "latitude": -29.609988,
+        "longitude": 28.233608
+    },
+    {
+        "name": "Madagaskar",
+        "slug": "madagaskar",
+        "timezone": "Indian/Antananarivo",
+        "latitude": -18.766947,
+        "longitude": 46.869107
+    },
+    {
+        "name": "Morityus",
+        "slug": "morityus",
+        "timezone": "Indian/Mauritius",
+        "latitude": -20.348404,
+        "longitude": 57.552152
+    },
+    {
+        "name": "Seyşeller",
+        "slug": "seyseller",
+        "timezone": "Indian/Mahe",
+        "latitude": -4.679574,
+        "longitude": 55.491977
+    },
+    {
+        "name": "Tunus",
+        "slug": "tunus",
+        "timezone": "Africa/Tunis",
+        "latitude": 33.886917,
+        "longitude": 9.537499
+    },
+    {
+        "name": "Libya",
+        "slug": "libya",
+        "timezone": "Africa/Tripoli",
+        "latitude": 26.3351,
+        "longitude": 17.228331
+    },
+    {
+        "name": "Suriye",
+        "slug": "suriye",
+        "timezone": "Asia/Damascus",
+        "latitude": 34.802075,
+        "longitude": 38.996815
+    },
+    {
+        "name": "Lübnan",
+        "slug": "lubnan",
+        "timezone": "Asia/Beirut",
+        "latitude": 33.854721,
+        "longitude": 35.862285
+    },
+    {
+        "name": "Ürdün",
+        "slug": "urdun",
+        "timezone": "Asia/Amman",
+        "latitude": 30.585164,
+        "longitude": 36.238414
+    },
+    {
+        "name": "Yemen",
+        "slug": "yemen",
+        "timezone": "Asia/Aden",
+        "latitude": 15.552727,
+        "longitude": 48.516388
+    },
+    {
+        "name": "Pakistan",
+        "slug": "pakistan",
+        "timezone": "Asia/Karachi",
+        "latitude": 30.375321,
+        "longitude": 69.345116
+    },
+    {
+        "name": "Nepal",
+        "slug": "nepal",
+        "timezone": "Asia/Kathmandu",
+        "latitude": 28.394857,
+        "longitude": 84.124008
+    },
+    {
+        "name": "Sri Lanka",
+        "slug": "sri-lanka",
+        "timezone": "Asia/Colombo",
+        "latitude": 7.873054,
+        "longitude": 80.771797
+    },
+    {
+        "name": "Myanmar",
+        "slug": "myanmar",
+        "timezone": "Asia/Yangon",
+        "latitude": 21.916221,
+        "longitude": 95.955974
+    },
+    {
+        "name": "Kamboçya",
+        "slug": "kambocya",
+        "timezone": "Asia/Phnom_Penh",
+        "latitude": 12.565679,
+        "longitude": 104.990963
+    },
+    {
+        "name": "Laos",
+        "slug": "laos",
+        "timezone": "Asia/Vientiane",
+        "latitude": 19.85627,
+        "longitude": 102.495496
+    },
+    {
+        "name": "Filipinler",
+        "slug": "filipinler",
+        "timezone": "Asia/Manila",
+        "latitude": 12.879721,
+        "longitude": 121.774017
+    },
+    {
+        "name": "Tayvan",
+        "slug": "tayvan",
+        "timezone": "Asia/Taipei",
+        "latitude": 23.69781,
+        "longitude": 120.960515
+    },
+    {
+        "name": "Moğolistan",
+        "slug": "mogolistan",
+        "timezone": "Asia/Ulaanbaatar",
+        "latitude": 46.862496,
+        "longitude": 103.846656
+    },
+    {
+        "name": "Kuzey Makedonya",
+        "slug": "kuzey-makedonya",
+        "timezone": "Europe/Skopje",
+        "latitude": 41.608635,
+        "longitude": 21.745275
+    },
+    {
+        "name": "Karadağ",
+        "slug": "karadag",
+        "timezone": "Europe/Podgorica",
+        "latitude": 42.708678,
+        "longitude": 19.37439
+    },
+    {
+        "name": "Sırbistan",
+        "slug": "sirbistan",
+        "timezone": "Europe/Belgrade",
+        "latitude": 44.016521,
+        "longitude": 21.005859
+    },
+    {
+        "name": "Kosova",
+        "slug": "kosova",
+        "timezone": "Europe/Belgrade",
+        "latitude": 42.602636,
+        "longitude": 20.902977
+    },
+    {
+        "name": "Slovakya",
+        "slug": "slovakya",
+        "timezone": "Europe/Bratislava",
+        "latitude": 48.669026,
+        "longitude": 19.699024
+    },
+    {
+        "name": "Slovenya",
+        "slug": "slovenya",
+        "timezone": "Europe/Ljubljana",
+        "latitude": 46.151241,
+        "longitude": 14.995463
+    },
+    {
+        "name": "Estonya",
+        "slug": "estonya",
+        "timezone": "Europe/Tallinn",
+        "latitude": 58.595272,
+        "longitude": 25.013607
+    },
+    {
+        "name": "Letonya",
+        "slug": "letonya",
+        "timezone": "Europe/Riga",
+        "latitude": 56.879635,
+        "longitude": 24.603189
+    },
+    {
+        "name": "Litvanya",
+        "slug": "litvanya",
+        "timezone": "Europe/Vilnius",
+        "latitude": 55.169438,
+        "longitude": 23.881275
+    },
+    {
+        "name": "Belarus",
+        "slug": "belarus",
+        "timezone": "Europe/Minsk",
+        "latitude": 53.709807,
+        "longitude": 27.953389
+    },
+    {
+        "name": "Moldova",
+        "slug": "moldova",
+        "timezone": "Europe/Chisinau",
+        "latitude": 47.411631,
+        "longitude": 28.369885
+    },
+    {
+        "name": "Romanya",
+        "slug": "romanya",
+        "timezone": "Europe/Bucharest",
+        "latitude": 45.943161,
+        "longitude": 24.96676
+    },
+    {
+        "name": "Macaristan",
+        "slug": "macaristan",
+        "timezone": "Europe/Budapest",
+        "latitude": 47.162494,
+        "longitude": 19.503304
+    },
+    {
+        "name": "Malta",
+        "slug": "malta",
+        "timezone": "Europe/Malta",
+        "latitude": 35.937496,
+        "longitude": 14.375416
+    },
+    {
+        "name": "Lüksemburg",
+        "slug": "luksemburg",
+        "timezone": "Europe/Luxembourg",
+        "latitude": 49.815273,
+        "longitude": 6.129583
+    },
+    {
+        "name": "Vatikan",
+        "slug": "vatikan",
+        "timezone": "Europe/Vatican",
+        "latitude": 41.902916,
+        "longitude": 12.453389
+    },
+    {
+        "name": "San Marino",
+        "slug": "san-marino",
+        "timezone": "Europe/San_Marino",
+        "latitude": 43.94236,
+        "longitude": 12.457777
+    },
+    {
+        "name": "Lihtenştayn",
+        "slug": "lihtenstayn",
+        "timezone": "Europe/Vaduz",
+        "latitude": 47.166,
+        "longitude": 9.555373
+    },
+    {
+        "name": "Monako",
+        "slug": "monako",
+        "timezone": "Europe/Monaco",
+        "latitude": 43.750298,
+        "longitude": 7.412841
+    },
+    {
+        "name": "Uruguay",
+        "slug": "uruguay",
+        "timezone": "America/Montevideo",
+        "latitude": -32.522779,
+        "longitude": -55.765835
+    },
+    {
+        "name": "Paraguay",
+        "slug": "paraguay",
+        "timezone": "America/Asuncion",
+        "latitude": -23.442503,
+        "longitude": -58.443832
+    },
+    {
+        "name": "Peru",
+        "slug": "peru",
+        "timezone": "America/Lima",
+        "latitude": -9.189967,
+        "longitude": -75.015152
+    },
+    {
+        "name": "Ekvador",
+        "slug": "ekvador",
+        "timezone": "America/Guayaquil",
+        "latitude": -1.831239,
+        "longitude": -78.183406
+    },
+    {
+        "name": "Venezuela",
+        "slug": "venezuela",
+        "timezone": "America/Caracas",
+        "latitude": 6.42375,
+        "longitude": -66.58973
+    },
+    {
+        "name": "Guyana",
+        "slug": "guyana",
+        "timezone": "America/Guyana",
+        "latitude": 4.860416,
+        "longitude": -58.93018
+    },
+    {
+        "name": "Surinam",
+        "slug": "surinam",
+        "timezone": "America/Paramaribo",
+        "latitude": 3.919305,
+        "longitude": -56.027783
+    },
+    {
+        "name": "Panama",
+        "slug": "panama",
+        "timezone": "America/Panama",
+        "latitude": 8.537981,
+        "longitude": -80.782127
+    },
+    {
+        "name": "Kosta Rika",
+        "slug": "kosta-rika",
+        "timezone": "America/Costa_Rica",
+        "latitude": 9.748917,
+        "longitude": -83.753428
+    },
+    {
+        "name": "Nikaragua",
+        "slug": "nikaragua",
+        "timezone": "America/Managua",
+        "latitude": 12.865416,
+        "longitude": -85.207229
+    },
+    {
+        "name": "Honduras",
+        "slug": "honduras",
+        "timezone": "America/Tegucigalpa",
+        "latitude": 15.199999,
+        "longitude": -86.241905
+    },
+    {
+        "name": "El Salvador",
+        "slug": "el-salvador",
+        "timezone": "America/El_Salvador",
+        "latitude": 13.794185,
+        "longitude": -88.89653
+    },
+    {
+        "name": "Küba",
+        "slug": "kuba",
+        "timezone": "America/Havana",
+        "latitude": 21.521757,
+        "longitude": -77.781167
+    },
+    {
+        "name": "Haiti",
+        "slug": "haiti",
+        "timezone": "America/Port-au-Prince",
+        "latitude": 18.971187,
+        "longitude": -72.285215
+    },
+    {
+        "name": "Dominik Cumhuriyeti",
+        "slug": "dominik-cumhuriyeti",
+        "timezone": "America/Santo_Domingo",
+        "latitude": 18.735693,
+        "longitude": -70.162651
+    },
+    {
+        "name": "Jamaika",
+        "slug": "jamaika",
+        "timezone": "America/Jamaica",
+        "latitude": 18.109581,
+        "longitude": -77.297508
+    },
+    {
+        "name": "Trinidad ve Tobago",
+        "slug": "trinidad-ve-tobago",
+        "timezone": "America/Port_of_Spain",
+        "latitude": 10.691803,
+        "longitude": -61.222503
+    },
+    {
+        "name": "Barbados",
+        "slug": "barbados",
+        "timezone": "America/Barbados",
+        "latitude": 13.193887,
+        "longitude": -59.543198
+    },
+    {
+        "name": "Saint Lucia",
+        "slug": "saint-lucia",
+        "timezone": "America/St_Lucia",
+        "latitude": 13.909444,
+        "longitude": -60.978893
+    },
+    {
+        "name": "Grenada",
+        "slug": "grenada",
+        "timezone": "America/Grenada",
+        "latitude": 12.262776,
+        "longitude": -61.604171
+    },
+    {
+        "name": "Antigua ve Barbuda",
+        "slug": "antigua-ve-barbuda",
+        "timezone": "America/Antigua",
+        "latitude": 17.060816,
+        "longitude": -61.796428
+    },
+    {
+        "name": "Dominika",
+        "slug": "dominika",
+        "timezone": "America/Dominica",
+        "latitude": 15.414999,
+        "longitude": -61.370976
     }
 ]
