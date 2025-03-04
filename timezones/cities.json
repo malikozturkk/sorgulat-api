@@ -1958,5 +1958,349 @@
         "country": "Kenya",
         "latitude": -4.0435,
         "longitude": 39.6682
+    },
+    {
+        "name": "Lima",
+        "slug": "lima",
+        "timezone": "America/Lima",
+        "country": "Peru",
+        "latitude": -12.0464,
+        "longitude": -77.0428
+    },
+    {
+        "name": "Arequipa",
+        "slug": "arequipa",
+        "timezone": "America/Lima",
+        "country": "Peru",
+        "latitude": -16.409,
+        "longitude": -71.5375
+    },
+    {
+        "name": "Phnom Penh",
+        "slug": "phnom-penh",
+        "timezone": "Asia/Phnom_Penh",
+        "country": "Kamboçya",
+        "latitude": 11.5564,
+        "longitude": 104.9282
+    },
+    {
+        "name": "Vientiane",
+        "slug": "vientiane",
+        "timezone": "Asia/Vientiane",
+        "country": "Laos",
+        "latitude": 17.9757,
+        "longitude": 102.6331
+    },
+    {
+        "name": "Yangon",
+        "slug": "yangon",
+        "timezone": "Asia/Yangon",
+        "country": "Myanmar",
+        "latitude": 16.8661,
+        "longitude": 96.1951
+    },
+    {
+        "name": "Dakar",
+        "slug": "dakar",
+        "timezone": "Africa/Dakar",
+        "country": "Senegal",
+        "latitude": 14.7167,
+        "longitude": -17.4677
+    },
+    {
+        "name": "Accra",
+        "slug": "accra",
+        "timezone": "Africa/Accra",
+        "country": "Gana",
+        "latitude": 5.6034,
+        "longitude": -0.1870
+    },
+    {
+        "name": "Kampala",
+        "slug": "kampala",
+        "timezone": "Africa/Kampala",
+        "country": "Uganda",
+        "latitude": 0.3476,
+        "longitude": 32.5825
+    },
+    {
+        "name": "Dar es Salaam",
+        "slug": "dar-es-salaam",
+        "timezone": "Africa/Dar_es_Salaam",
+        "country": "Tanzanya",
+        "latitude": -6.7924,
+        "longitude": 39.2083
+    },
+    {
+        "name": "Kigali",
+        "slug": "kigali",
+        "timezone": "Africa/Kigali",
+        "country": "Ruanda",
+        "latitude": -1.9441,
+        "longitude": 30.0619
+    },
+    {
+        "name": "Bujumbura",
+        "slug": "bujumbura",
+        "timezone": "Africa/Bujumbura",
+        "country": "Burundi",
+        "latitude": -3.3614,
+        "longitude": 29.3599
+    },
+    {
+        "name": "Bamako",
+        "slug": "bamako",
+        "timezone": "Africa/Bamako",
+        "country": "Mali",
+        "latitude": 12.6392,
+        "longitude": -8.0029
+    },
+    {
+        "name": "Ouagadougou",
+        "slug": "ouagadougou",
+        "timezone": "Africa/Ouagadougou",
+        "country": "Burkina Faso",
+        "latitude": 12.3714,
+        "longitude": -1.5197
+    },
+    {
+        "name": "Niamey",
+        "slug": "niamey",
+        "timezone": "Africa/Niamey",
+        "country": "Nijer",
+        "latitude": 13.5117,
+        "longitude": 2.1251
+    },
+    {
+        "name": "Nouakchott",
+        "slug": "nouakchott",
+        "timezone": "Africa/Nouakchott",
+        "country": "Moritanya",
+        "latitude": 18.0735,
+        "longitude": -15.9582
+    },
+    {
+        "name": "Bangui",
+        "slug": "bangui",
+        "timezone": "Africa/Bangui",
+        "country": "Orta Afrika Cumhuriyeti",
+        "latitude": 4.3947,
+        "longitude": 18.5582
+    },
+    {
+        "name": "Brazzaville",
+        "slug": "brazzaville",
+        "timezone": "Africa/Brazzaville",
+        "country": "Kongo Cumhuriyeti",
+        "latitude": -4.2634,
+        "longitude": 15.2429
+    },
+    {
+        "name": "Kinshasa",
+        "slug": "kinshasa",
+        "timezone": "Africa/Kinshasa",
+        "country": "Kongo Demokratik Cumhuriyeti",
+        "latitude": -4.4419,
+        "longitude": 15.2663
+    },
+    {
+        "name": "Libreville",
+        "slug": "libreville",
+        "timezone": "Africa/Libreville",
+        "country": "Gabon",
+        "latitude": 0.4162,
+        "longitude": 9.4673
+    },
+    {
+        "name": "Malabo",
+        "slug": "malabo",
+        "timezone": "Africa/Malabo",
+        "country": "Ekvator Ginesi",
+        "latitude": 3.7523,
+        "longitude": 8.7802
+    },
+    {
+        "name": "Bissau",
+        "slug": "bissau",
+        "timezone": "Africa/Bissau",
+        "country": "Gine-Bissau",
+        "latitude": 11.8636,
+        "longitude": -15.5977
+    },
+    {
+        "name": "Conakry",
+        "slug": "conakry",
+        "timezone": "Africa/Conakry",
+        "country": "Gine",
+        "latitude": 9.5092,
+        "longitude": -13.7122
+    },
+    {
+        "name": "Yamoussoukro",
+        "slug": "yamoussoukro",
+        "timezone": "Africa/Abidjan",
+        "country": "Fildişi Sahili",
+        "latitude": 6.8276,
+        "longitude": -5.2893
+    },
+    {
+        "name": "Monrovia",
+        "slug": "monrovia",
+        "timezone": "Africa/Monrovia",
+        "country": "Liberya",
+        "latitude": 6.3004,
+        "longitude": -10.7969
+    },
+    {
+        "name": "Bamenda",
+        "slug": "bamenda",
+        "timezone": "Africa/Douala",
+        "country": "Kamerun",
+        "latitude": 5.9614,
+        "longitude": 10.1519
+    },
+    {
+        "name": "Lilongwe",
+        "slug": "lilongwe",
+        "timezone": "Africa/Blantyre",
+        "country": "Malavi",
+        "latitude": -13.9626,
+        "longitude": 33.7741
+    },
+    {
+        "name": "Lusaka",
+        "slug": "lusaka",
+        "timezone": "Africa/Lusaka",
+        "country": "Zambiya",
+        "latitude": -15.3875,
+        "longitude": 28.3228
+    },
+    {
+        "name": "Harare",
+        "slug": "harare",
+        "timezone": "Africa/Harare",
+        "country": "Zimbabve",
+        "latitude": -17.8277,
+        "longitude": 31.0534
+    },
+    {
+        "name": "Maputo",
+        "slug": "maputo",
+        "timezone": "Africa/Maputo",
+        "country": "Mozambik",
+        "latitude": -25.9692,
+        "longitude": 32.5732
+    },
+    {
+        "name": "Windhoek",
+        "slug": "windhoek",
+        "timezone": "Africa/Windhoek",
+        "country": "Namibya",
+        "latitude": -22.5609,
+        "longitude": 17.0658
+    },
+    {
+        "name": "Gaborone",
+        "slug": "gaborone",
+        "timezone": "Africa/Gaborone",
+        "country": "Botsvana",
+        "latitude": -24.6282,
+        "longitude": 25.9231
+    },
+    {
+        "name": "Maseru",
+        "slug": "maseru",
+        "timezone": "Africa/Maseru",
+        "country": "Lesoto",
+        "latitude": -29.3167,
+        "longitude": 27.4833
+    },
+    {
+        "name": "Mbabane",
+        "slug": "mbabane",
+        "timezone": "Africa/Mbabane",
+        "country": "Esvatini",
+        "latitude": -26.3054,
+        "longitude": 31.1367
+    },
+    {
+        "name": "Antananarivo",
+        "slug": "antananarivo",
+        "timezone": "Indian/Antananarivo",
+        "country": "Madagaskar",
+        "latitude": -18.8792,
+        "longitude": 47.5079
+    },
+    {
+        "name": "Moroni",
+        "slug": "moroni",
+        "timezone": "Indian/Comoro",
+        "country": "Komorlar",
+        "latitude": -11.7172,
+        "longitude": 43.2473
+    },
+    {
+        "name": "Victoria",
+        "slug": "victoria",
+        "timezone": "Indian/Mahe",
+        "country": "Seyşeller",
+        "latitude": -4.6230,
+        "longitude": 55.4540
+    },
+    {
+        "name": "Port Louis",
+        "slug": "port-louis",
+        "timezone": "Indian/Mauritius",
+        "country": "Mauritius",
+        "latitude": -20.1609,
+        "longitude": 57.5012
+    },
+    {
+        "name": "Saint-Denis",
+        "slug": "saint-denis",
+        "timezone": "Indian/Reunion",
+        "country": "Reunion",
+        "latitude": -20.8823,
+        "longitude": 55.4504
+    },
+    {
+        "name": "Asmara",
+        "slug": "asmara",
+        "timezone": "Africa/Asmara",
+        "country": "Eritre",
+        "latitude": 15.3229,
+        "longitude": 38.9251
+    },
+    {
+        "name": "Djibouti",
+        "slug": "djibouti",
+        "timezone": "Africa/Djibouti",
+        "country": "Cibuti",
+        "latitude": 11.5886,
+        "longitude": 43.1456
+    },
+    {
+        "name": "Addis Ababa",
+        "slug": "addis-ababa",
+        "timezone": "Africa/Addis_Ababa",
+        "country": "Etiyopya",
+        "latitude": 9.0320,
+        "longitude": 38.7420
+    },
+    {
+        "name": "Khartoum",
+        "slug": "khartoum",
+        "timezone": "Africa/Khartoum",
+        "country": "Sudan",
+        "latitude": 15.5007,
+        "longitude": 32.5599
+    },
+    {
+        "name": "Juba",
+        "slug": "juba",
+        "timezone": "Africa/Juba",
+        "country": "Güney Sudan",
+        "latitude": 4.8594,
+        "longitude": 31.5713
     }
 ]
