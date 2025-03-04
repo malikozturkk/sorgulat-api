@@ -17,6 +17,7 @@ type City struct {
 	Type      *string `json:"type,omitempty"`
 	Latitude  float64 `json:"latitude"`
 	Longitude float64 `json:"longitude"`
+	Offset    float64 `json:"offset"`
 }
 
 type Response struct {
