@@ -22,6 +22,7 @@ func GetCountryTimeZone(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
+	updatedCountries = updatedCountries[:45]
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(updatedCountries)
 }
