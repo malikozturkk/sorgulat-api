@@ -39,6 +39,7 @@ type Response struct {
 	Sunrise          string     `json:"sunrise"`
 	Sunset           string     `json:"sunset"`
 	SunsetDifference string     `json:"sunsetDifference"`
+	AllCities        []City     `json:"allCities"`
 }
 
 type CityTime struct {

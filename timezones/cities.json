@@ -350,5 +350,645 @@
         "country": "İran",
         "latitude": 35.6892,
         "longitude": 51.3890
+    },
+    {
+        "name": "Ankara",
+        "slug": "ankara",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.9208,
+        "longitude": 32.8541
+    },
+    {
+        "name": "Adana",
+        "slug": "adana",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.0,
+        "longitude": 35.3
+    },
+    {
+        "name": "Adıyaman",
+        "slug": "adiyaman",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.75,
+        "longitude": 38.283333
+    },
+    {
+        "name": "Afyonkarahisar",
+        "slug": "afyonkarahisar",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.763611,
+        "longitude": 30.540556
+    },
+    {
+        "name": "Ağrı",
+        "slug": "agri",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.719444,
+        "longitude": 43.051389
+    },
+    {
+        "name": "Aksaray",
+        "slug": "aksaray",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.368611,
+        "longitude": 34.029722
+    },
+    {
+        "name": "Amasya",
+        "slug": "amasya",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.653333,
+        "longitude": 35.833333
+    },
+    {
+        "name": "Antalya",
+        "slug": "antalya",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 36.884167,
+        "longitude": 30.705
+    },
+    {
+        "name": "Ardahan",
+        "slug": "ardahan",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.108611,
+        "longitude": 42.702222
+    },
+    {
+        "name": "Artvin",
+        "slug": "artvin",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.183333,
+        "longitude": 41.816667
+    },
+    {
+        "name": "Aydın",
+        "slug": "aydin",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.844444,
+        "longitude": 27.845278
+    },
+    {
+        "name": "Balıkesir",
+        "slug": "balikesir",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.648333,
+        "longitude": 27.882778
+    },
+    {
+        "name": "Bartın",
+        "slug": "bartin",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.635,
+        "longitude": 32.3375
+    },
+    {
+        "name": "Batman",
+        "slug": "batman",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.881111,
+        "longitude": 41.135278
+    },
+    {
+        "name": "Bayburt",
+        "slug": "bayburt",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.256667,
+        "longitude": 40.2225
+    },
+    {
+        "name": "Bilecik",
+        "slug": "bilecik",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.141944,
+        "longitude": 29.979167
+    },
+    {
+        "name": "Bingöl",
+        "slug": "bingol",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.885833,
+        "longitude": 40.498333
+    },
+    {
+        "name": "Bitlis",
+        "slug": "bitlis",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.4,
+        "longitude": 42.116667
+    },
+    {
+        "name": "Bolu",
+        "slug": "bolu",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.735833,
+        "longitude": 31.606111
+    },
+    {
+        "name": "Burdur",
+        "slug": "burdur",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.720278,
+        "longitude": 30.290833
+    },
+    {
+        "name": "Bursa",
+        "slug": "bursa",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.182847,
+        "longitude": 29.066944
+    },
+    {
+        "name": "Çanakkale",
+        "slug": "canakkale",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.145556,
+        "longitude": 26.406389
+    },
+    {
+        "name": "Çankırı",
+        "slug": "cankiri",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.6,
+        "longitude": 33.616667
+    },
+    {
+        "name": "Çorum",
+        "slug": "corum",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.548611,
+        "longitude": 34.953333
+    },
+    {
+        "name": "Denizli",
+        "slug": "denizli",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.77652,
+        "longitude": 29.08639
+    },
+    {
+        "name": "Diyarbakır",
+        "slug": "diyarbakir",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.914444,
+        "longitude": 40.230556
+    },
+    {
+        "name": "Düzce",
+        "slug": "duzce",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.843056,
+        "longitude": 31.156389
+    },
+    {
+        "name": "Edirne",
+        "slug": "edirne",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.674965,
+        "longitude": 26.583481
+    },
+    {
+        "name": "Elazığ",
+        "slug": "elazig",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.6763,
+        "longitude": 39.221802
+    },
+    {
+        "name": "Erzincan",
+        "slug": "erzincan",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.75,
+        "longitude": 39.5
+    },
+    {
+        "name": "Erzurum",
+        "slug": "erzurum",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.905994,
+        "longitude": 41.273784
+    },
+    {
+        "name": "Eskişehir",
+        "slug": "eskisehir",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.766724,
+        "longitude": 30.525608
+    },
+    {
+        "name": "Gaziantep",
+        "slug": "gaziantep",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.062931,
+        "longitude": 37.378159
+    },
+    {
+        "name": "Giresun",
+        "slug": "giresun",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.917921,
+        "longitude": 38.389876
+    },
+    {
+        "name": "Gümüşhane",
+        "slug": "gumushane",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.458673,
+        "longitude": 39.478961
+    },
+    {
+        "name": "Hakkari",
+        "slug": "hakkari",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.57812,
+        "longitude": 43.733805
+    },
+    {
+        "name": "Hatay",
+        "slug": "hatay",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 36.2,
+        "longitude": 36.166667
+    },
+    {
+        "name": "Iğdır",
+        "slug": "igdir",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.923611,
+        "longitude": 44.045
+    },
+    {
+        "name": "Isparta",
+        "slug": "isparta",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.766667,
+        "longitude": 30.55
+    },
+    {
+        "name": "İzmir",
+        "slug": "izmir",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.419247,
+        "longitude": 27.128722
+    },
+    {
+        "name": "Kahramanmaraş",
+        "slug": "kahramanmaras",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.585833,
+        "longitude": 36.9375
+    },
+    {
+        "name": "Karabük",
+        "slug": "karabuk",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.2,
+        "longitude": 32.633333
+    },
+    {
+        "name": "Karaman",
+        "slug": "karaman",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.181111,
+        "longitude": 33.215
+    },
+    {
+        "name": "Kars",
+        "slug": "kars",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.608333,
+        "longitude": 43.0975
+    },
+    {
+        "name": "Kastamonu",
+        "slug": "kastamonu",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.388667,
+        "longitude": 33.78273
+    },
+    {
+        "name": "Kayseri",
+        "slug": "kayseri",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.73122,
+        "longitude": 35.478729
+    },
+    {
+        "name": "Kırıkkale",
+        "slug": "kirikkale",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.846821,
+        "longitude": 33.515251
+    },
+    {
+        "name": "Kırklareli",
+        "slug": "kirklareli",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.733333,
+        "longitude": 27.216667
+    },
+    {
+        "name": "Kırşehir",
+        "slug": "kirsehir",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.145833,
+        "longitude": 34.163889
+    },
+    {
+        "name": "Kilis",
+        "slug": "kilis",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 36.716667,
+        "longitude": 37.116667
+    },
+    {
+        "name": "Kocaeli",
+        "slug": "kocaeli",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.853333,
+        "longitude": 29.881667
+    },
+    {
+        "name": "Konya",
+        "slug": "konya",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.866667,
+        "longitude": 32.483333
+    },
+    {
+        "name": "Kütahya",
+        "slug": "kutahya",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.416667,
+        "longitude": 29.983333
+    },
+    {
+        "name": "Malatya",
+        "slug": "malatya",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.35519,
+        "longitude": 38.30946
+    },
+    {
+        "name": "Manisa",
+        "slug": "manisa",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.619099,
+        "longitude": 27.428921
+    },
+    {
+        "name": "Mardin",
+        "slug": "mardin",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.321163,
+        "longitude": 40.7245
+    },
+    {
+        "name": "Mersin",
+        "slug": "mersin",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 36.8121,
+        "longitude": 34.6415
+    },
+    {
+        "name": "Muğla",
+        "slug": "mugla",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.2153,
+        "longitude": 28.3636
+    },
+    {
+        "name": "Muş",
+        "slug": "mus",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.9462,
+        "longitude": 41.7539
+    },
+    {
+        "name": "Nevşehir",
+        "slug": "nevsehir",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.6244,
+        "longitude": 34.723
+    },
+    {
+        "name": "Niğde",
+        "slug": "nigde",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.9667,
+        "longitude": 34.6833
+    },
+    {
+        "name": "Ordu",
+        "slug": "ordu",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.9833,
+        "longitude": 37.8833
+    },
+    {
+        "name": "Osmaniye",
+        "slug": "osmaniye",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.0742,
+        "longitude": 36.2464
+    },
+    {
+        "name": "Rize",
+        "slug": "rize",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.0201,
+        "longitude": 40.5234
+    },
+    {
+        "name": "Sakarya",
+        "slug": "sakarya",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.7806,
+        "longitude": 30.4033
+    },
+    {
+        "name": "Samsun",
+        "slug": "samsun",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.2867,
+        "longitude": 36.33
+    },
+    {
+        "name": "Siirt",
+        "slug": "siirt",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.9333,
+        "longitude": 41.95
+    },
+    {
+        "name": "Sinop",
+        "slug": "sinop",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 42.0264,
+        "longitude": 35.1551
+    },
+    {
+        "name": "Sivas",
+        "slug": "sivas",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.7477,
+        "longitude": 37.0179
+    },
+    {
+        "name": "Şanlıurfa",
+        "slug": "sanliurfa",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.1671,
+        "longitude": 38.7939
+    },
+    {
+        "name": "Şırnak",
+        "slug": "sirnak",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 37.4187,
+        "longitude": 42.4918
+    },
+    {
+        "name": "Tekirdağ",
+        "slug": "tekirdag",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.978,
+        "longitude": 27.511
+    },
+    {
+        "name": "Tokat",
+        "slug": "tokat",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.3167,
+        "longitude": 36.55
+    },
+    {
+        "name": "Trabzon",
+        "slug": "trabzon",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.0015,
+        "longitude": 39.7178
+    },
+    {
+        "name": "Tunceli",
+        "slug": "tunceli",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.1069,
+        "longitude": 39.5481
+    },
+    {
+        "name": "Uşak",
+        "slug": "usak",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.6823,
+        "longitude": 29.4082
+    },
+    {
+        "name": "Van",
+        "slug": "van",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 38.4942,
+        "longitude": 43.38
+    },
+    {
+        "name": "Yalova",
+        "slug": "yalova",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 40.6556,
+        "longitude": 29.2769
+    },
+    {
+        "name": "Yozgat",
+        "slug": "yozgat",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 39.82,
+        "longitude": 34.8044
+    },
+    {
+        "name": "Zonguldak",
+        "slug": "zonguldak",
+        "timezone": "Europe/Istanbul",
+        "country": "Türkiye",
+        "latitude": 41.4564,
+        "longitude": 31.7987
     }
 ]
