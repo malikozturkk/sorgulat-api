@@ -21,25 +21,27 @@ type City struct {
 }
 
 type Response struct {
-	Year             int        `json:"year"`
-	Month            int        `json:"month"`
-	Day              int        `json:"day"`
-	Hour             int        `json:"hour"`
-	Minute           int        `json:"minute"`
-	Seconds          int        `json:"seconds"`
-	MilliSeconds     int        `json:"milliSeconds"`
-	DateTime         string     `json:"dateTime"`
-	Date             string     `json:"date"`
-	Time             string     `json:"time"`
-	DayOfWeek        string     `json:"dayOfWeek"`
-	DstActive        bool       `json:"dstActive"`
-	LocationText     string     `json:"locationText"`
-	Timezone         City       `json:"timezone"`
-	PopulerCities    []CityTime `json:"populerCities"`
-	Sunrise          string     `json:"sunrise"`
-	Sunset           string     `json:"sunset"`
-	SunsetDifference string     `json:"sunsetDifference"`
-	AllCities        []City     `json:"allCities"`
+	Year              int        `json:"year"`
+	Month             int        `json:"month"`
+	Day               int        `json:"day"`
+	Hour              int        `json:"hour"`
+	Minute            int        `json:"minute"`
+	Seconds           int        `json:"seconds"`
+	MilliSeconds      int        `json:"milliSeconds"`
+	DateTime          string     `json:"dateTime"`
+	Date              string     `json:"date"`
+	Time              string     `json:"time"`
+	DayOfWeek         string     `json:"dayOfWeek"`
+	DstActive         bool       `json:"dstActive"`
+	LocationText      string     `json:"locationText"`
+	Timezone          City       `json:"timezone"`
+	PopulerCities     []CityTime `json:"populerCities"`
+	Sunrise           string     `json:"sunrise"`
+	Sunset            string     `json:"sunset"`
+	SunsetDifference  string     `json:"sunsetDifference"`
+	AllCities         []City     `json:"allCities"`
+	NoonTime          string     `json:"noonTime"`
+	NoonDifferenceMin int        `json:"noonDifferenceMin"`
 }
 
 type CityTime struct {

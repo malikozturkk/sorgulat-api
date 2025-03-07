@@ -31,6 +31,11 @@ func getTimeForLocation(timezone string, locationName string, slug string, count
 	sunriseLocal := sunriseTime.In(loc).Format("15:04")
 	sunsetLocal := sunsetTime.In(loc).Format("15:04")
 	sunsetTimeDifference := sunsetTime.Sub(sunriseTime)
+	dayLength := sunsetTime.Sub(sunriseTime)
+	noonTime := sunriseTime.Add(dayLength / 2)
+	noonLocal := noonTime.In(loc).Format("15:04")
+	noonReference := time.Date(year, month, day, 12, 0, 0, 0, loc)
+	noonDifference := int(noonTime.Sub(noonReference).Minutes())
 
 	populerCities := make([]models.CityTime, 0, 6)
 	for i, city := range cities {
@@ -84,7 +89,9 @@ func getTimeForLocation(timezone string, locationName string, slug string, count
 		SunsetDifference: fmt.Sprintf("%02ds %02dd",
 			int(sunsetTimeDifference.Hours()),
 			int(sunsetTimeDifference.Minutes())%60),
-		AllCities: allCities,
+		AllCities:         allCities,
+		NoonTime:          noonLocal,
+		NoonDifferenceMin: noonDifference,
 	}, nil
 }
 
