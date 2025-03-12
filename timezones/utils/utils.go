@@ -40,8 +40,13 @@ func max(a, b int) int {
 	return b
 }
 
-func LoadData[T any](dataType string) []T {
-	filePath := "timezones/" + dataType + ".json"
+func LoadData[T any](dataType string, folder ...string) []T {
+	defaultFolder := "timezones/"
+	if len(folder) > 0 {
+		defaultFolder = folder[0]
+	}
+
+	filePath := defaultFolder + dataType + ".json"
 	file, err := os.Open(filePath)
 	if err != nil {
 		log.Fatalf("%s dosyası açılamadı: %v", filePath, err)
