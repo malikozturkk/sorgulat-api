@@ -2478,5 +2478,181 @@
         "country": "Moğolistan",
         "latitude": 49.0333,
         "longitude": 104.0833
+    },
+    {
+        "name": "Boston",
+        "slug": "boston",
+        "timezone": "America/New_York",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 42.3601,
+        "longitude": -71.0589
+    },
+    {
+        "name": "Houston",
+        "slug": "houston",
+        "timezone": "America/Chicago",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 29.7604,
+        "longitude": -95.3698
+    },
+    {
+        "name": "Dallas",
+        "slug": "dallas",
+        "timezone": "America/Chicago",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 32.7767,
+        "longitude": -96.797
+    },
+    {
+        "name": "Atlanta",
+        "slug": "atlanta",
+        "timezone": "America/New_York",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 33.749,
+        "longitude": -84.388
+    },
+    {
+        "name": "Seattle",
+        "slug": "seattle",
+        "timezone": "America/Los_Angeles",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 47.6062,
+        "longitude": -122.3321
+    },
+    {
+        "name": "Denver",
+        "slug": "denver",
+        "timezone": "America/Denver",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 39.7392,
+        "longitude": -104.9903
+    },
+    {
+        "name": "Las Vegas",
+        "slug": "las-vegas",
+        "timezone": "America/Los_Angeles",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 36.1699,
+        "longitude": -115.1398
+    },
+    {
+        "name": "Phoenix",
+        "slug": "phoenix",
+        "timezone": "America/Phoenix",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 33.4484,
+        "longitude": -112.074
+    },
+    {
+        "name": "Philadelphia",
+        "slug": "philadelphia",
+        "timezone": "America/New_York",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 39.9526,
+        "longitude": -75.1652
+    },
+    {
+        "name": "San Diego",
+        "slug": "san-diego",
+        "timezone": "America/Los_Angeles",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 32.7157,
+        "longitude": -117.1611
+    },
+    {
+        "name": "San Antonio",
+        "slug": "san-antonio",
+        "timezone": "America/Chicago",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 29.4241,
+        "longitude": -98.4936
+    },
+    {
+        "name": "San Jose",
+        "slug": "san-jose",
+        "timezone": "America/Los_Angeles",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 37.3382,
+        "longitude": -121.8863
+    },
+    {
+        "name": "Austin",
+        "slug": "austin",
+        "timezone": "America/Chicago",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 30.2672,
+        "longitude": -97.7431
+    },
+    {
+        "name": "Jacksonville",
+        "slug": "jacksonville",
+        "timezone": "America/New_York",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 30.3322,
+        "longitude": -81.6557
+    },
+    {
+        "name": "Fort Worth",
+        "slug": "fort-worth",
+        "timezone": "America/Chicago",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 32.7555,
+        "longitude": -97.3308
+    },
+    {
+        "name": "Columbus",
+        "slug": "columbus",
+        "timezone": "America/New_York",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 39.9612,
+        "longitude": -82.9988
+    },
+    {
+        "name": "Indianapolis",
+        "slug": "indianapolis",
+        "timezone": "America/Indiana/Indianapolis",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 39.7684,
+        "longitude": -86.1581
+    },
+    {
+        "name": "Charlotte",
+        "slug": "charlotte",
+        "timezone": "America/New_York",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 35.2271,
+        "longitude": -80.8431
+    },
+    {
+        "name": "San Francisco",
+        "slug": "san-francisco",
+        "timezone": "America/Los_Angeles",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 37.7749,
+        "longitude": -122.4194
+    },
+    {
+        "name": "El Paso",
+        "slug": "el-paso",
+        "timezone": "America/Denver",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 31.7619,
+        "longitude": -106.4850
+    },
+    {
+        "name": "Detroit",
+        "slug": "detroit",
+        "timezone": "America/New_York",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 42.3314,
+        "longitude": -83.0458
+    },
+    {
+        "name": "Nashville",
+        "slug": "nashville",
+        "timezone": "America/Chicago",
+        "country": "Amerika Birleşik Devletleri",
+        "latitude": 36.1627,
+        "longitude": -86.7816
     }
 ]
