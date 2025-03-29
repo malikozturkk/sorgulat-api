@@ -38,7 +38,7 @@
     { "country": "CG", "value": "Vizeli" }, 
     { "country": "CD", "value": "Kapıda Vize", "blogUrl": "turkiyeden-demokratik-kongo-cumhuriyetine" },
     { "country": "CR", "value": "Vizesiz" },
-    { "country": "CI", "value": "eTA" },
+    { "country": "CI", "value": "eTA", "blogUrl": "turkiyeden-fildisi-sahiline" },
     { "country": "HR", "value": "Vizeli" },
     { "country": "CU", "value": "Kapıda Vize" },
     { "country": "CY", "value": "Vizeli" }, 
