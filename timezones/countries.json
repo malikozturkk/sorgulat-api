@@ -1153,5 +1153,12 @@
         "timezone": "America/Dominica",
         "latitude": 15.414999,
         "longitude": -61.370976
+    },
+    {
+        "name": "Kazakistan",
+        "slug": "kazakistan",
+        "timezone": "Asia/Almaty",
+        "latitude": 48.019573,
+        "longitude": 66.923684
     }
 ]
