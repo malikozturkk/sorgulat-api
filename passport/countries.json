@@ -40,7 +40,7 @@
     { "country": "CR", "value": "Vizesiz" },
     { "country": "CI", "value": "eTA", "blogUrl": "turkiyeden-fildisi-sahiline" },
     { "country": "HR", "value": "Vizeli" },
-    { "country": "CU", "value": "Kapıda Vize" },
+    { "country": "CU", "value": "Kapıda Vize", "blogUrl": "turkiyeden-kubaya" },
     { "country": "CY", "value": "Vizeli" }, 
     { "country": "CZ", "value": "Vizeli" },
     { "country": "DK", "value": "Vizeli" }, 
