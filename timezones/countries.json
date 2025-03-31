@@ -1160,5 +1160,12 @@
         "timezone": "Asia/Almaty",
         "latitude": 48.019573,
         "longitude": 66.923684
-    }
+    },
+    {
+        "name": "Gürcistan",
+        "slug": "gurcistan",
+        "timezone": "Asia/Tbilisi",
+        "latitude": 41.7151,
+        "longitude": 44.8271
+    }    
 ]
