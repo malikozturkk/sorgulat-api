@@ -127,7 +127,7 @@
     { "country": "PG", "value": "Vizeli" }, 
     { "country": "PY", "value": "Vizesiz" },
     { "country": "PE", "value": "Vizesiz" },
-    { "country": "PH", "value": "Vizesiz" }, 
+    { "country": "PH", "value": "Vizesiz", "blogUrl": "turkiyeden-filipinlere" }, 
     { "country": "PL", "value": "Vizeli" },
     { "country": "PT", "value": "Vizeli" },
     { "country": "QA", "value": "Kapıda Vize", "blogUrl": "turkiyeden-katara" },
