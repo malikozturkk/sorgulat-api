@@ -875,6 +875,13 @@
         "longitude": 21.745275
     },
     {
+        "name": "Makedonya",
+        "slug": "makedonya",
+        "timezone": "Europe/Skopje",
+        "latitude": 41.9981,
+        "longitude": 21.4254
+    },    
+    {
         "name": "Karadağ",
         "slug": "karadag",
         "timezone": "Europe/Podgorica",
