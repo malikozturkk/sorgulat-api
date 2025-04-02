@@ -1174,5 +1174,19 @@
         "timezone": "Asia/Tbilisi",
         "latitude": 41.7151,
         "longitude": 44.8271
-    }    
+    },
+    {
+        "name": "Özbekistan",
+        "slug": "ozbekistan",
+        "timezone": "Asia/Tashkent",
+        "latitude": 41.2995,
+        "longitude": 69.2401
+    },
+    {
+        "name": "Kırgızistan",
+        "slug": "kirgizistan",
+        "timezone": "Asia/Bishkek",
+        "latitude": 42.8746,
+        "longitude": 74.5698
+    }
 ]
