@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
+	blogSearch "sorgulat-api/blog/search"
 	passport "sorgulat-api/passport/controllers"
 	"sorgulat-api/timezones"
 	"sorgulat-api/timezones/city"
@@ -37,6 +38,7 @@ func main() {
 	mux.HandleFunc("/compare", compare.CompareTimezones)
 	mux.HandleFunc("/passport", passport.GetCountriesPassport)
 	mux.HandleFunc("/passport/", passport.GetFilteredCountriesPassport)
+	mux.HandleFunc("/blog/search", blogSearch.SearchHandler)
 
 	log.Println("Server is running on port 8080...")
 	log.Fatal(http.ListenAndServe(":8080", corsMiddleware(mux)))
