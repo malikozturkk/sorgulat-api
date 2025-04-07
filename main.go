@@ -6,6 +6,7 @@ import (
 	passport "sorgulat-api/passport/controllers"
 	"sorgulat-api/timezones"
 	"sorgulat-api/timezones/city"
+	"sorgulat-api/timezones/compare"
 	"sorgulat-api/timezones/country"
 	"sorgulat-api/timezones/difference"
 	"sorgulat-api/timezones/search"
@@ -33,6 +34,7 @@ func main() {
 	mux.HandleFunc("/timezones/", timezones.GetTimezoneBySlug)
 	mux.HandleFunc("/timezones/difference/", difference.GetDifferenceBySlug)
 	mux.HandleFunc("/timezones/search", search.SearchHandler)
+	mux.HandleFunc("/compare", compare.CompareTimezones)
 	mux.HandleFunc("/passport", passport.GetCountriesPassport)
 	mux.HandleFunc("/passport/", passport.GetFilteredCountriesPassport)
 

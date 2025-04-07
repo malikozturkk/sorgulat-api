@@ -1,5 +1,7 @@
 package models
 
+import "time"
+
 type Country struct {
 	Name      string  `json:"name"`
 	Slug      string  `json:"slug"`
@@ -51,4 +53,26 @@ type CityTime struct {
 	Minute   int    `json:"minute"`
 	DateTime string `json:"dateTime"`
 	Selected bool   `json:"selected"`
+}
+
+type HourPair struct {
+	From string `json:"from"`
+	To   string `json:"to"`
+}
+
+type CityWithTime struct {
+	Name     string `json:"name"`
+	Slug     string `json:"slug"`
+	Timezone string `json:"timezone"`
+	Country  string `json:"country"`
+	DateTime string `json:"dateTime"`
+}
+
+type CompareResponse struct {
+	From           CityWithTime  `json:"from"`
+	To             CityWithTime  `json:"to"`
+	DifferenceText string        `json:"differenceText"`
+	HourTable      []HourPair    `json:"hourTable"`
+	Diff           time.Duration `json:"diff"`
+	FormattedDiff  string        `json:"formattedDiff"`
 }
