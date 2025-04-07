@@ -2,6 +2,7 @@ package search
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"strings"
@@ -84,6 +85,10 @@ func betterMatch(query, target string) bool {
 
 func SearchHandler(w http.ResponseWriter, r *http.Request) {
 	query := r.URL.Query().Get("query")
+	limitParam := r.URL.Query().Get("limit")
+	var limit int
+	fmt.Sscanf(limitParam, "%d", &limit)
+
 	if query == "" {
 		http.Error(w, "Query param is required", http.StatusBadRequest)
 		return
@@ -139,6 +144,10 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 				MainPhoto:   blog.MainPhoto,
 				Description: blog.Description,
 			})
+		}
+
+		if limit > 0 && len(results) >= limit {
+			break
 		}
 	}
 
