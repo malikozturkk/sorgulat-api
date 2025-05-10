@@ -39,6 +39,7 @@ func main() {
 	mux.HandleFunc("/passport", passport.GetCountriesPassport)
 	mux.HandleFunc("/passport/", passport.GetFilteredCountriesPassport)
 	mux.HandleFunc("/blog/search", blogSearch.SearchHandler)
+	mux.HandleFunc("/compare/sitemap", compare.SitemapHandler)
 
 	log.Println("Server is running on port 8080...")
 	log.Fatal(http.ListenAndServe(":8080", corsMiddleware(mux)))
