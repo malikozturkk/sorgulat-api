@@ -4,7 +4,9 @@ import (
 	"log"
 	"net/http"
 	blogSearch "sorgulat-api/blog/search"
+	"sorgulat-api/db"
 	passport "sorgulat-api/passport/controllers"
+	schoolscores "sorgulat-api/school-scores"
 	"sorgulat-api/timezones"
 	"sorgulat-api/timezones/city"
 	"sorgulat-api/timezones/compare"
@@ -29,6 +31,8 @@ func corsMiddleware(next http.Handler) http.Handler {
 }
 
 func main() {
+	db.ConnectMongoDB()
+
 	mux := http.NewServeMux()
 	mux.HandleFunc("/timezones/city", city.GetCityTimeZone)
 	mux.HandleFunc("/timezones/country", country.GetCountryTimeZone)
@@ -40,6 +44,7 @@ func main() {
 	mux.HandleFunc("/passport/", passport.GetFilteredCountriesPassport)
 	mux.HandleFunc("/blog/search", blogSearch.SearchHandler)
 	mux.HandleFunc("/compare/sitemap", compare.SitemapHandler)
+	mux.HandleFunc("/schools/universities", schoolscores.GetUniversities)
 
 	log.Println("Server is running on port 8080...")
 	log.Fatal(http.ListenAndServe(":8080", corsMiddleware(mux)))
