@@ -116,13 +116,30 @@ func GetUniversities(w http.ResponseWriter, r *http.Request) {
 	filterLanguages := strings.Split(query.Get("language"), ",")
 	filterEducationTypes := strings.Split(query.Get("education_type"), ",")
 
-	page, _ := strconv.Atoi(query.Get("page"))
-	limit, _ := strconv.Atoi(query.Get("limit"))
-	if page < 1 {
-		page = 1
-	}
-	if limit < 1 {
+	pageStr := query.Get("page")
+	limitStr := query.Get("limit")
+
+	applyPagination := false
+	var page, limit int
+
+	if limitStr != "" {
+		limit, _ = strconv.Atoi(limitStr)
+		if limit < 1 {
+			limit = 10
+		}
+		applyPagination = true
+	} else if pageStr != "" {
 		limit = 10
+		applyPagination = true
+	}
+
+	if pageStr != "" {
+		page, _ = strconv.Atoi(pageStr)
+		if page < 1 {
+			page = 1
+		}
+	} else {
+		page = 1
 	}
 
 	var filtered []models.University
@@ -208,15 +225,18 @@ func GetUniversities(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	start := (page - 1) * limit
-	end := start + limit
-	if start > len(filtered) {
-		start = len(filtered)
-	}
-	if end > len(filtered) {
-		end = len(filtered)
-	}
-
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(filtered[start:end])
+	if applyPagination {
+		start := (page - 1) * limit
+		end := start + limit
+		if start > len(filtered) {
+			start = len(filtered)
+		}
+		if end > len(filtered) {
+			end = len(filtered)
+		}
+		json.NewEncoder(w).Encode(filtered[start:end])
+	} else {
+		json.NewEncoder(w).Encode(filtered)
+	}
 }
