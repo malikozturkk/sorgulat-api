@@ -9,11 +9,90 @@ import (
 	"net/http"
 	"sorgulat-api/db"
 	"sorgulat-api/school-scores/models"
+	"sort"
 	"strconv"
 	"strings"
 
 	"go.mongodb.org/mongo-driver/bson"
+	"golang.org/x/text/collate"
+	"golang.org/x/text/language"
 )
+
+func sortUniversities(universities []models.University, sortBy, sortOrder string) {
+	collator := collate.New(language.Turkish)
+	sort.SliceStable(universities, func(i, j int) bool {
+		getLatestData := func(u models.University) *models.YearlyData {
+			if len(u.Departments) == 0 {
+				return nil
+			}
+			latest := &models.YearlyData{}
+			found := false
+			for _, yd := range u.Departments[0].YearlyData {
+				if !found || yd.Year > latest.Year {
+					*latest = yd
+					found = true
+				}
+			}
+			if found {
+				return latest
+			}
+			return nil
+		}
+
+		switch sortBy {
+		case "name":
+			if sortOrder == "desc" {
+				return collator.CompareString(universities[i].Name, universities[j].Name) > 0
+			}
+			return collator.CompareString(universities[i].Name, universities[j].Name) < 0
+		case "score", "rank", "quota", "placed":
+			ydI := getLatestData(universities[i])
+			ydJ := getLatestData(universities[j])
+			if ydI == nil && ydJ == nil {
+				return false
+			}
+			if ydI == nil {
+				return false
+			}
+			if ydJ == nil {
+				return true
+			}
+
+			getField := func(yd *models.YearlyData) float64 {
+				switch sortBy {
+				case "score":
+					return yd.BaseScore
+				case "rank":
+					return float64(yd.BaseRank)
+				case "quota":
+					return float64(yd.Quota)
+				case "placed":
+					return float64(yd.Placement)
+				}
+				return 0
+			}
+
+			valI := getField(ydI)
+			valJ := getField(ydJ)
+
+			if valI == 0 && valJ != 0 {
+				return false
+			}
+			if valI != 0 && valJ == 0 {
+				return true
+			}
+			if valI == 0 && valJ == 0 {
+				return false
+			}
+
+			if sortOrder == "desc" {
+				return valI > valJ
+			}
+			return valI < valJ
+		}
+		return false
+	})
+}
 
 func fetchUniversitiesFromMongo() []models.University {
 	var universities []models.University
@@ -86,6 +165,8 @@ func slugifyList(list []string) []string {
 
 func GetUniversities(w http.ResponseWriter, r *http.Request) {
 	query := r.URL.Query()
+	sortBy := query.Get("sort_by")
+	sortOrder := query.Get("sort_order")
 	universities := fetchUniversitiesFromMongo()
 
 	filterCities := strings.Split(query.Get("city"), ",")
@@ -226,6 +307,10 @@ func GetUniversities(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Header().Set("Content-Type", "application/json")
+	if sortBy != "" {
+		sortUniversities(filtered, sortBy, sortOrder)
+	}
+
 	if applyPagination {
 		start := (page - 1) * limit
 		end := start + limit
@@ -235,7 +320,17 @@ func GetUniversities(w http.ResponseWriter, r *http.Request) {
 		if end > len(filtered) {
 			end = len(filtered)
 		}
-		json.NewEncoder(w).Encode(filtered[start:end])
+		totalPages := (len(filtered) + limit - 1) / limit
+
+		response := models.PaginatedResponse{
+			Data:       filtered[start:end],
+			Total:      len(filtered),
+			Page:       page,
+			Limit:      limit,
+			TotalPages: totalPages,
+		}
+
+		json.NewEncoder(w).Encode(response)
 	} else {
 		json.NewEncoder(w).Encode(filtered)
 	}
